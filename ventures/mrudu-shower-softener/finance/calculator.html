@@ -1,0 +1,383 @@
+<title>CPO Go/No-Go</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f6f6f4; --surface:#ffffff; --surface-2:#f0f0ed; --border:#dcdcd6; --border-strong:#b9b9b1;
+  --text:#1c1c1a; --muted:#5f5f58; --faint:#8a8a82; --accent:#2b5fd9; --focus:#2b5fd9;
+  --go:#17803d; --go-bg:#e3f4e8; --iter:#9a6400; --iter-bg:#fbf0d9; --kill:#b42318; --kill-bg:#fbe5e2;
+  --nodata:#5f5f58; --nodata-bg:#ececE8;
+  --go-cell:#d3eedb; --iter-cell:#f8e6bd; --kill-cell:#f6d3ce;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#141413; --surface:#1d1d1b; --surface-2:#262624; --border:#363633; --border-strong:#4d4d48;
+    --text:#ececE6; --muted:#a8a89f; --faint:#7d7d75; --accent:#7ea2ff; --focus:#7ea2ff;
+    --go:#5fd38a; --go-bg:#173322; --iter:#f0b84a; --iter-bg:#3a2c10; --kill:#ff8a7a; --kill-bg:#3d1b17;
+    --nodata:#a8a89f; --nodata-bg:#2c2c29;
+    --go-cell:#1f4129; --iter-cell:#4a3812; --kill-cell:#4d211c;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#141413; --surface:#1d1d1b; --surface-2:#262624; --border:#363633; --border-strong:#4d4d48;
+  --text:#ececE6; --muted:#a8a89f; --faint:#7d7d75; --accent:#7ea2ff; --focus:#7ea2ff;
+  --go:#5fd38a; --go-bg:#173322; --iter:#f0b84a; --iter-bg:#3a2c10; --kill:#ff8a7a; --kill-bg:#3d1b17;
+  --nodata:#a8a89f; --nodata-bg:#2c2c29;
+  --go-cell:#1f4129; --iter-cell:#4a3812; --kill-cell:#4d211c;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--bg); color:var(--text);
+  font:15px/1.45 Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  padding-left:max(16px, env(safe-area-inset-left, 0px));
+  padding-right:max(16px, env(safe-area-inset-right, 0px));
+  padding-top:24px; padding-bottom:40px;
+}
+.wrap{max-width:1180px; margin:0 auto}
+h1{font-size:22px; margin:0 0 6px; letter-spacing:-0.01em}
+.lede{color:var(--muted); margin:0 0 6px; max-width:760px}
+.toolbar{display:flex; flex-wrap:wrap; gap:8px 16px; align-items:center; margin:12px 0 18px; color:var(--muted); font-size:13px}
+button{font:inherit; font-size:13px; color:var(--text); background:var(--surface); border:1px solid var(--border-strong); border-radius:6px; padding:6px 12px; cursor:pointer}
+button:hover{background:var(--surface-2)}
+button:focus-visible,input:focus-visible{outline:2px solid var(--focus); outline-offset:1px}
+.grid{display:grid; grid-template-columns:1fr; gap:16px}
+@media (min-width:900px){ .grid{grid-template-columns:1fr 1fr} }
+.card{background:var(--surface); border:1px solid var(--border); border-radius:10px; padding:16px; min-width:0}
+.card-head{display:flex; justify-content:space-between; align-items:flex-start; gap:12px; margin-bottom:12px}
+.card-head h2{font-size:18px; margin:0}
+.card-head .sub{color:var(--muted); font-size:13px}
+.pill{display:inline-block; font-weight:700; font-size:13px; letter-spacing:0.04em; padding:5px 12px; border-radius:999px; white-space:nowrap; border:1px solid transparent}
+.pill.go{color:var(--go); background:var(--go-bg); border-color:var(--go)}
+.pill.iterate{color:var(--iter); background:var(--iter-bg); border-color:var(--iter)}
+.pill.kill{color:var(--kill); background:var(--kill-bg); border-color:var(--kill)}
+.pill.nodata{color:var(--nodata); background:var(--nodata-bg); border-color:var(--border-strong)}
+.num{font-variant-numeric:tabular-nums}
+.headline{background:var(--surface-2); border-radius:8px; padding:12px; margin-bottom:12px}
+.headline .big{font-size:26px; font-weight:700; font-variant-numeric:tabular-nums}
+.headline .why{color:var(--muted); font-size:13px; margin-top:2px}
+.meter{position:relative; height:10px; border-radius:5px; margin:12px 0 4px; overflow:hidden;
+  background:linear-gradient(to right, var(--go-cell) 0 46.667%, var(--iter-cell) 46.667% 66.667%, var(--kill-cell) 66.667% 100%)}
+.meter .mark{position:absolute; top:-2px; width:3px; height:14px; background:var(--text); border-radius:1px; transform:translateX(-1px)}
+.meter-legend{display:flex; flex-wrap:wrap; gap:2px 12px; font-size:11.5px; color:var(--muted); font-variant-numeric:tabular-nums}
+.meter-legend i{display:inline-block; width:9px; height:9px; border-radius:2px; margin-right:4px; vertical-align:-1px; font-style:normal}
+dl.figs{display:grid; grid-template-columns:1fr auto; gap:6px 12px; margin:0 0 12px; font-size:14px}
+dl.figs dt{color:var(--muted)}
+dl.figs dd{margin:0; text-align:right; font-variant-numeric:tabular-nums; font-weight:600}
+dl.figs .sep{grid-column:1 / -1; border-top:1px solid var(--border); margin:4px 0}
+fieldset{border:1px solid var(--border); border-radius:8px; margin:0 0 12px; padding:10px 12px 4px}
+legend{font-weight:600; font-size:13px; padding:0 4px}
+.hint{color:var(--faint); font-size:12px; margin:-2px 0 8px}
+.field{display:grid; grid-template-columns:1fr 110px; gap:8px; align-items:center; margin-bottom:8px}
+.field label{font-size:13px; color:var(--text)}
+.field label small{display:block; color:var(--faint); font-size:11.5px}
+.inbox{display:flex; align-items:center; border:1px solid var(--border-strong); border-radius:6px; background:var(--surface); overflow:hidden}
+.inbox span{color:var(--faint); font-size:13px; padding:0 6px; flex:none}
+.inbox input{width:100%; min-width:0; border:0; background:transparent; color:var(--text); font:inherit; font-size:14px; padding:6px 6px; text-align:right; font-variant-numeric:tabular-nums}
+.inbox input:focus{outline:none}
+.inbox:focus-within{outline:2px solid var(--focus); outline-offset:1px}
+.readonly{font-size:14px; text-align:right; font-variant-numeric:tabular-nums; color:var(--muted); padding-right:6px}
+details{margin:0 0 12px}
+summary{cursor:pointer; font-weight:600; font-size:13px; padding:4px 0}
+.sens{width:100%; border-collapse:collapse; font-size:12px; font-variant-numeric:tabular-nums; table-layout:fixed}
+.sens th,.sens td{padding:4px 2px; text-align:center; border:1px solid var(--surface)}
+.sens th{color:var(--muted); font-weight:500}
+.sens td.go{background:var(--go-cell)} .sens td.iterate{background:var(--iter-cell)} .sens td.kill{background:var(--kill-cell)}
+.sens td.cur{outline:2px solid var(--text); outline-offset:-2px; font-weight:700}
+.sens-wrap{overflow-x:auto}
+.note{font-size:12.5px; color:var(--muted); margin:8px 0 0}
+.mode{font-size:12px; color:var(--muted)}
+footer{margin-top:20px; color:var(--muted); font-size:12.5px; max-width:900px}
+footer p{margin:4px 0}
+</style>
+
+<div class="wrap">
+  <h1>CPO Go/No-Go calculator</h1>
+  <p class="lede">Smoke test: Meta ads to a refundable pre-order page. Compares the cost to get one pre-order (CPO) against the most we can afford to pay for a customer. Every input is an <strong>assumption</strong> — change it and the verdict updates.</p>
+  <div class="toolbar">
+    <button type="button" id="reset">Reset to starting assumptions</button>
+    <span>Verdict: CPO ≤ 70% of max affordable cost = <b>GO</b> · 70–100% = <b>ITERATE</b> · above 100% = <b>KILL</b></span>
+  </div>
+  <div class="grid" id="grid"></div>
+  <footer>
+    <p><b>How it's calculated.</b> Profit per order = price (minus GST if included) − product cost − shipping/packaging/payment fees − returns allowance (a % of price). Max affordable cost per customer = first-order profit + repeat profit × share counted. GO threshold = 70% of that, leaving headroom because ad costs rise as spend scales.</p>
+    <p><b>Test CPO</b> = cost per click ÷ landing-page conversion rate. When spend and paid pre-orders are entered, the actual figure replaces the estimate.</p>
+    <p><b>Confidence.</b> With few orders the measured CPO is noisy. The range shown is a 95% interval on the order count (Poisson). At 25 orders the true CPO could be about 0.7× to 1.5× what you measured, so treat a verdict as solid only when the whole range sits on one side of a threshold.</p>
+    <p><b>Payback</b> counts all expected repeat profit (not just the share counted) and assumes steady repeat orders with no drop-off, so treat it as a best case.</p>
+  </footer>
+</div>
+
+<script>
+(function(){
+  "use strict";
+  var STORE_KEY = "cpo-go-nogo-v1";
+
+  // Product definitions. Every default is a planning assumption.
+  var PRODUCTS = [
+    { key:"m", name:"Mrudu", sub:"Shower softener · Bangalore", repeatMode:"own",
+      defaults:{ price:1999, cost:600, ship:150, returns:10, gst:0,
+                 repprice:599, repmargin:60, repfreq:2, share:0, horizon:12,
+                 cpc:12, cvr:1.5, target:25, spend:"", orders:"" },
+      repeatLabel:"Replacement cartridge" },
+    { key:"l", name:"Lavan", sub:"Electrolyte mix, 20 sachets · India", repeatMode:"same",
+      defaults:{ price:599, cost:180, ship:90, returns:10, gst:0,
+                 repfreq:2.5, share:25, horizon:12,
+                 cpc:12, cvr:2.5, target:25, spend:"", orders:"" },
+      repeatLabel:"Repeat pack (same profit as first order)" }
+  ];
+
+  var SENS_CPC = [6, 8, 10, 12, 15, 20, 25];
+  var SENS_CVR = [1, 1.5, 2, 3, 4, 5];
+
+  function field(id, label, hint, unit, suffix, step){
+    return '<div class="field"><label for="'+id+'">'+label+(hint?'<small>'+hint+'</small>':'')+'</label>'+
+      '<div class="inbox">'+(unit?'<span>'+unit+'</span>':'')+
+      '<input id="'+id+'" type="number" inputmode="decimal" min="0" step="'+(step||"any")+'">'+
+      (suffix?'<span>'+suffix+'</span>':'')+'</div></div>';
+  }
+
+  function cardHTML(p){
+    var k = p.key;
+    var repeatFields = p.repeatMode === "own"
+      ? field(k+"-repprice","Repeat order price","Replacement cartridge","₹") +
+        field(k+"-repmargin","Repeat order margin","Profit as % of repeat price","","%")
+      : '<div class="field"><label>Profit per repeat order<small>Same as first-order profit</small></label><div class="readonly" id="'+k+'-repprofit-ro">—</div></div>';
+    return '<section class="card" id="card-'+k+'" aria-labelledby="'+k+'-title">'+
+      '<div class="card-head"><div><h2 id="'+k+'-title">'+p.name+'</h2><div class="sub">'+p.sub+'</div></div>'+
+      '<span class="pill nodata" id="'+k+'-verdict" aria-live="polite">—</span></div>'+
+
+      '<div class="headline"><div class="mode" id="'+k+'-mode">Estimated from CPC ÷ conversion rate</div>'+
+      '<div class="big" id="'+k+'-cpo">—</div><div class="why" id="'+k+'-why"></div>'+
+      '<div class="meter" aria-hidden="true"><div class="mark" id="'+k+'-mark"></div></div>'+
+      '<div class="meter-legend"><span><i style="background:var(--go-cell)"></i><span id="'+k+'-leg-go">GO</span></span><span><i style="background:var(--iter-cell)"></i><span id="'+k+'-leg-iter">ITERATE</span></span><span><i style="background:var(--kill-cell)"></i>KILL above max</span><span>▮ = CPO</span></div></div>'+
+
+      '<dl class="figs">'+
+        '<dt>Profit per order, before ads</dt><dd id="'+k+'-profit">—</dd>'+
+        '<dt>Repeat profit counted</dt><dd id="'+k+'-repcounted">—</dd>'+
+        '<dt>Max affordable cost per customer</dt><dd id="'+k+'-maxcac">—</dd>'+
+        '<dt>GO threshold (70% of max)</dt><dd id="'+k+'-gothr">—</dd>'+
+        '<dt>Highest CPC that still hits GO</dt><dd id="'+k+'-maxcpc">—</dd>'+
+        '<div class="sep"></div>'+
+        '<dt>Clicks needed for <span id="'+k+'-tgt-lbl">25</span> orders</dt><dd id="'+k+'-clicks">—</dd>'+
+        '<dt>Ad budget for those orders</dt><dd id="'+k+'-budget">—</dd>'+
+        '<dt id="'+k+'-ci-lbl">Likely CPO range at that sample</dt><dd id="'+k+'-ci">—</dd>'+
+        '<dt>Payback incl. repeat orders</dt><dd id="'+k+'-payback">—</dd>'+
+      '</dl>'+
+
+      '<fieldset><legend>Price and costs per order</legend>'+
+        field(k+"-price","Selling price","What the customer pays","₹")+
+        field(k+"-cost","Landed product cost","Product + freight + duty","₹")+
+        field(k+"-ship","Shipping, packaging, payment fees","Per order","₹")+
+        field(k+"-returns","Returns / undelivered COD allowance","% of price lost","","%")+
+        field(k+"-gst","GST included in price","Use 18 if the price is GST-inclusive","","%")+
+      '</fieldset>'+
+
+      '<fieldset><legend>Repeat purchases (unproven)</legend>'+
+        repeatFields+
+        field(k+"-repfreq","Repeat orders per customer per year","","","/yr")+
+        field(k+"-horizon","Months of repeat to include","","","mo")+
+        field(k+"-share","Share of repeat profit we count","Conservative: repeat is unproven","","%")+
+      '</fieldset>'+
+
+      '<fieldset><legend>Test inputs (estimate)</legend>'+
+        field(k+"-cpc","Cost per click (Meta)","","₹")+
+        field(k+"-cvr","Landing page conversion rate","Clicks that place a paid pre-order","","%")+
+        field(k+"-target","Pre-orders to collect","For a usable read; 25 minimum","","")+
+      '</fieldset>'+
+
+      '<fieldset><legend>Actual results (override the estimate)</legend>'+
+        '<p class="hint">Leave blank until the test runs. Count paid pre-orders net of refunds.</p>'+
+        field(k+"-spend","Ad spend so far","","₹")+
+        field(k+"-orders","Paid pre-orders","","")+
+      '</fieldset>'+
+
+      '<details id="'+k+'-sens-box"><summary>Which CPC and conversion combinations hit GO</summary>'+
+        '<div class="sens-wrap"><table class="sens" id="'+k+'-sens"></table></div>'+
+        '<p class="note">Cells show the CPO in ₹. Rows: cost per click. Columns: conversion rate. Outlined cell = current estimate (if on the grid).</p>'+
+      '</details>'+
+    '</section>';
+  }
+
+  var grid = document.getElementById("grid");
+  grid.innerHTML = PRODUCTS.map(cardHTML).join("");
+
+  var fmtINR = function(x, dp){
+    if (!isFinite(x)) return "—";
+    return "₹" + x.toLocaleString("en-IN", {minimumFractionDigits:dp||0, maximumFractionDigits:dp||0});
+  };
+  var fmtN = function(x){ return isFinite(x) ? Math.round(x).toLocaleString("en-IN") : "—"; };
+  function num(id){
+    var el = document.getElementById(id);
+    if (!el || el.value === "") return NaN;
+    var v = parseFloat(el.value);
+    return isFinite(v) ? v : NaN;
+  }
+  function nz(v){ return isFinite(v) ? v : 0; }
+
+  // Poisson 95% interval on a count (Wilson–Hilferty approximation).
+  function poissonCI(n){
+    var z = 1.96, lo, hi;
+    lo = n <= 0 ? 0 : n * Math.pow(1 - 1/(9*n) - z/(3*Math.sqrt(n)), 3);
+    var m = n + 1;
+    hi = m * Math.pow(1 - 1/(9*m) + z/(3*Math.sqrt(m)), 3);
+    return [lo, hi];
+  }
+
+  function verdictFor(cpo, maxcac){
+    if (!(maxcac > 0)) return "kill";
+    if (cpo <= 0.7*maxcac) return "go";
+    if (cpo <= maxcac) return "iterate";
+    return "kill";
+  }
+
+  function compute(p){
+    var k = p.key, v = {};
+    ["price","cost","ship","returns","gst","repprice","repmargin","repfreq","share","horizon","cpc","cvr","target","spend","orders"]
+      .forEach(function(f){ v[f] = num(k+"-"+f); });
+    var r = {};
+    var net = nz(v.price) / (1 + nz(v.gst)/100);
+    r.profit = net - nz(v.cost) - nz(v.ship) - nz(v.price)*nz(v.returns)/100;
+    r.repProfit = p.repeatMode === "own" ? nz(v.repprice)*nz(v.repmargin)/100 : r.profit;
+    r.repTotal = r.repProfit * nz(v.repfreq) * nz(v.horizon)/12;
+    r.repCounted = r.repTotal * nz(v.share)/100;
+    r.maxcac = r.profit + r.repCounted;
+    r.goThr = 0.7 * r.maxcac;
+    var cvr = nz(v.cvr)/100, cpc = nz(v.cpc);
+    r.estCpo = cvr > 0 ? cpc / cvr : Infinity;
+    r.maxCpcGo = r.goThr > 0 ? r.goThr * cvr : 0;
+    r.target = isFinite(v.target) && v.target > 0 ? Math.round(v.target) : 25;
+    r.clicks = cvr > 0 ? Math.ceil(r.target / cvr) : Infinity;
+    r.budget = r.clicks * cpc;
+
+    var hasSpend = isFinite(v.spend) && v.spend > 0;
+    var hasOrders = isFinite(v.orders) && v.orders >= 0 && document.getElementById(k+"-orders").value !== "";
+    r.actual = hasSpend && hasOrders;
+    if (r.actual && v.orders > 0){
+      r.cpo = v.spend / v.orders; r.n = v.orders;
+    } else if (r.actual){
+      r.cpo = Infinity; r.n = 0; r.spend = v.spend;
+    } else {
+      r.cpo = r.estCpo; r.n = r.target;
+    }
+    // Verdict
+    if (r.actual && r.n === 0){
+      r.verdict = v.spend > r.maxcac ? "kill" : "nodata";
+    } else if (!isFinite(r.cpo)){
+      r.verdict = "nodata";
+    } else {
+      r.verdict = verdictFor(r.cpo, r.maxcac);
+    }
+    // Confidence range on CPO
+    var ci = poissonCI(r.n);
+    if (r.actual && r.n > 0){
+      r.ciLo = v.spend / ci[1]; r.ciHi = ci[0] > 0 ? v.spend / ci[0] : Infinity;
+    } else if (!r.actual && isFinite(r.cpo)){
+      r.ciLo = r.cpo * r.n / ci[1]; r.ciHi = ci[0] > 0 ? r.cpo * r.n / ci[0] : Infinity;
+    } else { r.ciLo = NaN; r.ciHi = NaN; }
+    // Payback (months) using all expected repeat profit
+    var monthly = r.repProfit * nz(v.repfreq) / 12;
+    if (!isFinite(r.cpo)) r.payback = NaN;
+    else if (r.cpo <= r.profit) r.payback = 0;
+    else r.payback = monthly > 0 ? (r.cpo - r.profit) / monthly : Infinity;
+    r.cvr = v.cvr; r.cpc = v.cpc;
+    return r;
+  }
+
+  var LABEL = {go:"GO", iterate:"ITERATE", kill:"KILL", nodata:"NO DATA"};
+
+  function setText(id, t){ var el = document.getElementById(id); if (el) el.textContent = t; }
+
+  function render(p){
+    var k = p.key, r = compute(p);
+    var pill = document.getElementById(k+"-verdict");
+    pill.className = "pill " + r.verdict;
+    pill.textContent = LABEL[r.verdict];
+
+    setText(k+"-mode", r.actual ? "Actual: ad spend ÷ paid pre-orders" : "Estimate: cost per click ÷ conversion rate");
+    if (r.actual && r.n === 0){
+      setText(k+"-cpo", "No orders yet");
+      setText(k+"-why", r.verdict === "kill"
+        ? "Already spent " + fmtINR(r.spend) + " with zero orders — more than the max affordable cost (" + fmtINR(r.maxcac) + ")."
+        : "Spent " + fmtINR(r.spend) + " so far. Keep going until spend passes " + fmtINR(r.maxcac) + " or orders arrive.");
+    } else {
+      setText(k+"-cpo", fmtINR(r.cpo) + " per pre-order");
+      var pct = r.maxcac > 0 ? r.cpo / r.maxcac * 100 : Infinity;
+      setText(k+"-why", isFinite(pct) ? Math.round(pct) + "% of max affordable cost (" + fmtINR(r.maxcac) + "). GO needs ≤ " + fmtINR(r.goThr) + "." : "Max affordable cost is zero or negative: each order loses money before ads.");
+    }
+    // Meter: scale 0..1.5×max
+    var mark = document.getElementById(k+"-mark");
+    var scale = 1.5 * Math.max(r.maxcac, 1);
+    var pos = isFinite(r.cpo) ? Math.min(Math.max(r.cpo / scale, 0), 1) : 1;
+    mark.style.left = "calc(" + (pos*100).toFixed(2) + "% - " + (pos*3).toFixed(1) + "px)";
+    setText(k+"-leg-go", "GO up to " + fmtINR(r.goThr));
+    setText(k+"-leg-iter", "ITERATE to " + fmtINR(r.maxcac));
+
+    setText(k+"-profit", fmtINR(r.profit));
+    setText(k+"-repcounted", fmtINR(r.repCounted));
+    setText(k+"-maxcac", fmtINR(r.maxcac));
+    setText(k+"-gothr", fmtINR(r.goThr));
+    setText(k+"-maxcpc", r.maxCpcGo > 0 ? fmtINR(r.maxCpcGo, 2) + " at " + (isFinite(r.cvr)?r.cvr:0) + "% CVR" : "—");
+    setText(k+"-tgt-lbl", String(r.target));
+    setText(k+"-clicks", fmtN(r.clicks));
+    setText(k+"-budget", fmtINR(r.budget));
+    setText(k+"-ci-lbl", r.actual ? "95% range on CPO from " + fmtN(r.n) + " orders" : "Likely CPO range at " + r.target + " orders");
+    setText(k+"-ci", isFinite(r.ciLo) ? fmtINR(r.ciLo) + " – " + (isFinite(r.ciHi) ? fmtINR(r.ciHi) : "∞") : "—");
+    setText(k+"-payback", !isFinite(r.payback) && isNaN(r.payback) ? "—"
+      : r.payback === 0 ? "On first order"
+      : isFinite(r.payback) ? r.payback.toFixed(1) + " months" : "Never (no repeat)");
+    if (p.repeatMode === "same") setText(k+"-repprofit-ro", fmtINR(r.repProfit));
+
+    // Sensitivity grid
+    var cur = r.cpc, curCvr = r.cvr;
+    var h = '<thead><tr><th scope="col">CPC \\ CVR</th>' + SENS_CVR.map(function(c){return '<th scope="col">'+c+'%</th>';}).join("") + '</tr></thead><tbody>';
+    SENS_CPC.forEach(function(cpc){
+      h += '<tr><th scope="row">₹'+cpc+'</th>';
+      SENS_CVR.forEach(function(c){
+        var cpo = cpc / (c/100);
+        var cls = verdictFor(cpo, r.maxcac);
+        if (cpc === cur && c === curCvr) cls += " cur";
+        h += '<td class="'+cls+'" title="'+LABEL[verdictFor(cpo, r.maxcac)]+'">'+Math.round(cpo).toLocaleString("en-IN")+'</td>';
+      });
+      h += '</tr>';
+    });
+    document.getElementById(k+"-sens").innerHTML = h + '</tbody>';
+  }
+
+  function renderAll(){ PRODUCTS.forEach(render); }
+
+  function fill(values){
+    PRODUCTS.forEach(function(p){
+      Object.keys(p.defaults).forEach(function(f){
+        var el = document.getElementById(p.key+"-"+f);
+        if (!el) return;
+        var v = values && values[p.key] && values[p.key][f] !== undefined ? values[p.key][f] : p.defaults[f];
+        el.value = v;
+      });
+    });
+  }
+  function save(){
+    var out = {};
+    PRODUCTS.forEach(function(p){
+      out[p.key] = {};
+      Object.keys(p.defaults).forEach(function(f){
+        var el = document.getElementById(p.key+"-"+f);
+        if (el) out[p.key][f] = el.value;
+      });
+    });
+    try { localStorage.setItem(STORE_KEY, JSON.stringify(out)); } catch(e) {}
+  }
+  function load(){
+    try { var s = localStorage.getItem(STORE_KEY); return s ? JSON.parse(s) : null; } catch(e) { return null; }
+  }
+
+  fill(load());
+  renderAll();
+  grid.addEventListener("input", function(){ renderAll(); save(); });
+  document.getElementById("reset").addEventListener("click", function(){
+    try { localStorage.removeItem(STORE_KEY); } catch(e) {}
+    fill(null); renderAll();
+  });
+})();
+</script>
