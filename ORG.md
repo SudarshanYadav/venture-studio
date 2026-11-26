@@ -1,6 +1,6 @@
 # ORG: venture-studio org chart and status
 
-Last updated: 2026-11-26 by chief-of-staff (model allocation and market-research gate adopted; global quality bar adopted; Mrudu landing, brand and ads relabelled DRAFT after the quality audit).
+Last updated: 2026-11-26 by chief-of-staff (Market Researcher active on Mrudu Stage 1 screen; Notion dropped, tracking moved to ORG.md; model allocation and market-research gate adopted; global quality bar adopted; Mrudu landing, brand and ads relabelled DRAFT after the quality audit).
 
 **Rule: two-way street.** Every specialist challenges the brief and flags what the studio is missing; every report ends with "What I'd do differently / what we're missing"; the CEO passes material pushback to the founder with its own view alongside. See `CLAUDE.md` §5 and [decision](decisions/2026-11-25-two-way-street.md).
 
@@ -12,7 +12,7 @@ Founder (board: approves money, launches, publishing, contacts, GitHub pushes)
     ├── Developer        (.claude/agents/developer.md)
     ├── Marketing Lead   (.claude/agents/marketing-lead.md)
     ├── Finance Analyst  (.claude/agents/finance-analyst.md)
-    └── Market Researcher (being recruited)
+    └── Market Researcher (.claude/agents/market-researcher.md)
 ```
 
 ## Roles
@@ -24,7 +24,7 @@ Founder (board: approves money, launches, publishing, contacts, GitHub pushes)
 | Developer | Landing pages, refundable pre-order checkout (Razorpay), Meta Pixel + CAPI, deploys; verifies with Playwright. | frontend-design, cro, copywriting, conversion-tracking, offers | sonnet |
 | Marketing Lead | Meta ad test plans, creatives, offline tests, tracking sheets, ad compliance. | ads, ad-creative, ab-testing, customer-research, marketing-psychology, offers, launch; `playbooks/smoke-test.md` | sonnet |
 | Finance Analyst | Unit economics, max CAC / CPO go-no-go, payback, pricing, sensitivity; builds calculators. | ads/references/payback-period.md, pricing, ab-testing/references/sample-size-guide.md; `playbooks/smoke-test.md` | sonnet |
-| Market Researcher (being recruited) | Deep market research for India and UAE (market potential, competition, launch plan, growth potential) before any landing page, ads or spend. | `playbooks/market-research.md` (being written) | sonnet |
+| Market Researcher | Deep market research for India and UAE (market potential, competition, launch plan, growth potential) before any landing page, ads or spend. | `playbooks/market-research.md`; `competitor-profiling`, `market-sizing` | sonnet |
 
 ## Current assignments
 
@@ -42,10 +42,11 @@ Founder (board: approves money, launches, publishing, contacts, GitHub pushes)
 | Chief of Staff | Two-way-street rule | **DONE** | [Decision](decisions/2026-11-25-two-way-street.md) |
 | Finance Analyst | Mrudu cartridge-capacity desk research | **STOPPED by founder 2026-11-26, then dropped for now**; no partial output | None. |
 | Chief of Staff | Migration package for the founder's personal account | **DONE**: transferred and pushed to private GitHub repo SudarshanYadav/venture-studio on 2026-11-26 | `export/venture-studio-2026-11-26.zip`, [MIGRATION.md](MIGRATION.md), [founder-preferences.md](founder-preferences.md). [Decision](decisions/2026-11-26-migrate-to-personal-account.md) |
-| Recruiter | Market-research agent + playbook | **IN PROGRESS** | `playbooks/market-research.md` (being written); Market Researcher agent not yet created. |
+| Recruiter | Market-research agent + playbook | **DONE (reviewed by CEO)** | `playbooks/market-research.md`, `.claude/agents/market-researcher.md`, skills `competitor-profiling` and `market-sizing`. |
 | Chief of Staff | Model allocation + new rules | **DONE** | `.claude/agents/*.md` (model lines), [CLAUDE.md](CLAUDE.md) §9 and §12. [Decision](decisions/2026-11-26-market-research-and-model-budget.md) |
+| Market Researcher | Mrudu Stage 1 market screen (India + UAE) + candidate segments | **IN PROGRESS** (restarted 2026-11-26 after a founder interruption; the first run produced no output) | `ventures/mrudu-shower-softener/research/market-research.md` |
 
-**Quality bar (2026-11-26):** Founder feedback on 2026-11-26 was that the work was college-project quality and that "Mrudu" had no research behind it. The new bar is global standard: brand, website and ad work is DONE only when every must-pass item in [playbooks/quality-bar.md](playbooks/quality-bar.md) passes and at least 85% of all items pass ([decision](decisions/2026-11-26-global-quality-bar.md), [audit](ventures/mrudu-shower-softener/marketing/quality-audit.md)). Project tracked in Notion: https://app.notion.com/p/424309931dab8138a712cdac7679f104
+**Quality bar (2026-11-26):** Founder feedback on 2026-11-26 was that the work was college-project quality and that "Mrudu" had no research behind it. The new bar is global standard: brand, website and ad work is DONE only when every must-pass item in [playbooks/quality-bar.md](playbooks/quality-bar.md) passes and at least 85% of all items pass ([decision](decisions/2026-11-26-global-quality-bar.md), [audit](ventures/mrudu-shower-softener/marketing/quality-audit.md)). Notion dropped by founder 2026-11-26; all tasks and projects are tracked here in ORG.md.
 
 **Blocker:** all Mrudu ad spend is blocked until cartridge capacity is measured ([decision](decisions/2026-11-25-mrudu-cartridge-capacity-blocker.md)). Founder said "Not yet" to the ~₹3–5k bench test on 2026-11-25.
 
@@ -62,4 +63,6 @@ Founder (board: approves money, launches, publishing, contacts, GitHub pushes)
 5. Developer applies the brand hand-off once the capacity blocker clears and the brand passes the bar.
 6. Founder OKs needed: Razorpay and Meta test accounts; the ship date; seller/grievance-officer details for the policies page; Mrudu trademark check.
 7. Proposed CLAUDE.md tweaks from the Chief of Staff, awaiting founder OK: the "right job?" check becomes one line inside each brief; founder reports get a fixed "Pushback raised / CEO view / founder decision?" line.
-8. **Founder decision needed:** should Mrudu and Lavan also get the market research, or only new ventures? Awaiting founder decision ([decision](decisions/2026-11-26-market-research-and-model-budget.md)).
+8. **Market research scope:** Mrudu gets market research (decided by founder 2026-11-26). Lavan still open: founder decision needed ([decision](decisions/2026-11-26-drop-notion-persona-after-research.md)).
+9. Target persona: decide after the Mrudu market screen, using its segment ranking.
+10. Founder to confirm the side-income target (provisional ₹50k/month net by month 12) that drives the kill criteria.
