@@ -60,7 +60,7 @@ Do nothing that risks legal trouble. In particular:
 - Food products: FSSAI licence/registration before selling; labelling per FSSAI; never call an electrolyte mix "ORS" (reserved term).
 - Meta advertising policies: no personal-attribute targeting language ("Do you have hard water damage?"), no before/after health imagery, no misleading claims.
 - Trademarks: brand names (Mrudu, Lavan) are placeholders until a trademark search is done.
-- UAE operations, if chosen, follow UAE consumer protection and advertising rules; check before launch.
+- UAE: dropped (2026-11-26).
 
 ## 8. Founder approval required
 
@@ -77,9 +77,9 @@ Drafting, building locally and private previews do not need approval.
 - Budget: **$10k (~₹8.5L)** total. Spend in small, reversible tests.
 - Goal: **steady side income**, not a venture-scale company.
 - Proof of concept in **3–6 months**.
-- Can operate in **India or UAE**.
+- Can operate in **India only** (founder decision 2026-11-26; UAE dropped).
 - Method: validate CAC with smoke tests before buying inventory (`playbooks/smoke-test.md`).
-- **New ventures:** deep market research for India and UAE (market potential, competition, launch plan, growth potential) before any landing page, ads or spend. Method: `playbooks/market-research.md` (being written).
+- **New ventures:** deep market research for India (market potential, competition, launch plan, growth potential) before any landing page, ads or spend. Method: `playbooks/market-research.md`. Research must cover current players, price points, customer problems/feedback and marketing channels.
 - Standing preferences (needle-movers only, no fancy internal tools; two-way street): see `founder-preferences.md`.
 
 ## 10. Where things live

@@ -1,6 +1,6 @@
 # ORG: venture-studio org chart and status
 
-Last updated: 2026-11-26 by chief-of-staff (Market Researcher active on Mrudu Stage 1 screen; Notion dropped, tracking moved to ORG.md; model allocation and market-research gate adopted; global quality bar adopted; Mrudu landing, brand and ads relabelled DRAFT after the quality audit).
+Last updated: 2026-11-26 by chief-of-staff (India-only focus, UAE dropped; Mrudu Stage 1 screen DONE with NO-GO on the shower-cartridge form, pending founder confirmation; India landscape research in progress; Notion dropped, tracking moved to ORG.md; model allocation and market-research gate adopted; global quality bar adopted).
 
 **Rule: two-way street.** Every specialist challenges the brief and flags what the studio is missing; every report ends with "What I'd do differently / what we're missing"; the CEO passes material pushback to the founder with its own view alongside. See `CLAUDE.md` §5 and [decision](decisions/2026-11-25-two-way-street.md).
 
@@ -24,7 +24,7 @@ Founder (board: approves money, launches, publishing, contacts, GitHub pushes)
 | Developer | Landing pages, refundable pre-order checkout (Razorpay), Meta Pixel + CAPI, deploys; verifies with Playwright. | frontend-design, cro, copywriting, conversion-tracking, offers | sonnet |
 | Marketing Lead | Meta ad test plans, creatives, offline tests, tracking sheets, ad compliance. | ads, ad-creative, ab-testing, customer-research, marketing-psychology, offers, launch; `playbooks/smoke-test.md` | sonnet |
 | Finance Analyst | Unit economics, max CAC / CPO go-no-go, payback, pricing, sensitivity; builds calculators. | ads/references/payback-period.md, pricing, ab-testing/references/sample-size-guide.md; `playbooks/smoke-test.md` | sonnet |
-| Market Researcher | Deep market research for India and UAE (market potential, competition, launch plan, growth potential) before any landing page, ads or spend. | `playbooks/market-research.md`; `competitor-profiling`, `market-sizing` | sonnet |
+| Market Researcher | Deep market research for India only (market potential, competition, launch plan, growth potential) before any landing page, ads or spend. | `playbooks/market-research.md`; `competitor-profiling`, `market-sizing` | sonnet |
 
 ## Current assignments
 
@@ -44,25 +44,26 @@ Founder (board: approves money, launches, publishing, contacts, GitHub pushes)
 | Chief of Staff | Migration package for the founder's personal account | **DONE**: transferred and pushed to private GitHub repo SudarshanYadav/venture-studio on 2026-11-26 | `export/venture-studio-2026-11-26.zip`, [MIGRATION.md](MIGRATION.md), [founder-preferences.md](founder-preferences.md). [Decision](decisions/2026-11-26-migrate-to-personal-account.md) |
 | Recruiter | Market-research agent + playbook | **DONE (reviewed by CEO)** | `playbooks/market-research.md`, `.claude/agents/market-researcher.md`, skills `competitor-profiling` and `market-sizing`. |
 | Chief of Staff | Model allocation + new rules | **DONE** | `.claude/agents/*.md` (model lines), [CLAUDE.md](CLAUDE.md) §9 and §12. [Decision](decisions/2026-11-26-market-research-and-model-budget.md) |
-| Market Researcher | Mrudu Stage 1 market screen (India + UAE) + candidate segments | **IN PROGRESS** (restarted 2026-11-26 after a founder interruption; the first run produced no output) | `ventures/mrudu-shower-softener/research/market-research.md` |
+| Market Researcher | Mrudu Stage 1 market screen (India + UAE) + candidate segments | **DONE (reviewed by CEO)**. Result: **NO-GO on the shower-cartridge form**: resin capacity of about 12–166 L at Bengaluru hardness, flow 26–150× over the resin's rating, and competitors only "condition". | `ventures/mrudu-shower-softener/research/` (`market-research.md`, `competitors.md`, `customer-voice.md`, `bench-test-spec.md`, `sources.md`) |
+| Market Researcher | India hard-water landscape: players, prices, customer problems, channels | **IN PROGRESS** | `ventures/mrudu-shower-softener/research/india-landscape.md` |
 
 **Quality bar (2026-11-26):** Founder feedback on 2026-11-26 was that the work was college-project quality and that "Mrudu" had no research behind it. The new bar is global standard: brand, website and ad work is DONE only when every must-pass item in [playbooks/quality-bar.md](playbooks/quality-bar.md) passes and at least 85% of all items pass ([decision](decisions/2026-11-26-global-quality-bar.md), [audit](ventures/mrudu-shower-softener/marketing/quality-audit.md)). Notion dropped by founder 2026-11-26; all tasks and projects are tracked here in ORG.md.
 
-**Blocker:** all Mrudu ad spend is blocked until cartridge capacity is measured ([decision](decisions/2026-11-25-mrudu-cartridge-capacity-blocker.md)). Founder said "Not yet" to the ~₹3–5k bench test on 2026-11-25.
+**Blocker:** Mrudu shower-cartridge form: NO-GO pending founder confirmation; all landing, brand and ad rework stopped; sample purchase not needed.
 
-**Git:** repo at https://github.com/SudarshanYadav/venture-studio (private, branch `main`). All studio work is committed and pushed (founder approved pushes to this repo on 2026-11-26). Note: the 2026-11-26 quality-bar work was pushed to branch `claude/sleepy-bardeen-45dzuq`, not `main`.
+**Git:** repo at https://github.com/SudarshanYadav/venture-studio (private, branch `main`). All studio work is committed and pushed (founder approved pushes to this repo on 2026-11-26). Note: all work since 2026-11-26 is on branch `claude/sleepy-bardeen-45dzuq`, not `main`.
 
 **Migration:** done 2026-11-26. The zip was unpacked in a Claude Code cloud session on the founder's personal account and pushed as commit `791d891`. Founder preferences live in [founder-preferences.md](founder-preferences.md), not per-machine memory. The calculator artifact link above is still on the old account and has not been republished; the local `ventures/mrudu-shower-softener/finance/calculator.html` is available.
 
 ## Next steps (awaiting founder direction)
 
 1. **Founder OK on proposed agent-file changes** to enforce `playbooks/quality-bar.md` (pending).
-2. **Marketing Lead pushback: buy 2–3 sample units and strips first (~₹3–5k).** One purchase unblocks the cartridge bench test, proof footage and product photography (see [quality-audit.md](ventures/mrudu-shower-softener/marketing/quality-audit.md)). Needs founder OK; blocker for all Mrudu spend.
+2. **Founder to confirm the Mrudu kill.** The shower-cartridge form is NO-GO ([market research](ventures/mrudu-shower-softener/research/market-research.md)). Founder accepts NO-GO, or runs the optional loose-resin column check (about ₹1–1.5k, [bench spec](ventures/mrudu-shower-softener/research/bench-test-spec.md)). The ₹3–5k sample purchase is no longer the next spend.
 3. **Customer research missing**: no `ventures/mrudu-shower-softener/marketing/research.md`; no hook traces to a real customer quote. Name research for "Mrudu" also missing.
-4. **Benchmark sites not visited** because of the session's network limit.
+4. **Decide whether to screen a bathroom-softener pivot** (Stage 1 screen for Bengaluru owner-occupied borewell homes; cost ₹0, about 1 hour). CEO decision.
 5. Developer applies the brand hand-off once the capacity blocker clears and the brand passes the bar.
 6. Founder OKs needed: Razorpay and Meta test accounts; the ship date; seller/grievance-officer details for the policies page; Mrudu trademark check.
 7. Proposed CLAUDE.md tweaks from the Chief of Staff, awaiting founder OK: the "right job?" check becomes one line inside each brief; founder reports get a fixed "Pushback raised / CEO view / founder decision?" line.
-8. **Market research scope:** Mrudu gets market research (decided by founder 2026-11-26). Lavan still open: founder decision needed ([decision](decisions/2026-11-26-drop-notion-persona-after-research.md)).
+8. **Decide market research for Lavan** (India only, per [India-only decision](decisions/2026-11-26-india-only.md)). Mrudu gets market research (decided by founder 2026-11-26). Founder decision needed ([decision](decisions/2026-11-26-drop-notion-persona-after-research.md)).
 9. Target persona: decide after the Mrudu market screen, using its segment ranking.
 10. Founder to confirm the side-income target (provisional ₹50k/month net by month 12) that drives the kill criteria.
