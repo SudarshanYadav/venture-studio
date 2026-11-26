@@ -1,6 +1,6 @@
 # ORG: venture-studio org chart and status
 
-Last updated: 2026-11-26 by chief-of-staff (migration package built for the founder's personal account; founder preferences folded into the repo; capacity desk research stopped and dropped).
+Last updated: 2026-11-26 by chief-of-staff (migration to the founder's personal account done; studio committed and pushed to private GitHub repo SudarshanYadav/venture-studio).
 
 **Rule: two-way street.** Every specialist challenges the brief and flags what the studio is missing; every report ends with "What I'd do differently / what we're missing"; the CEO passes material pushback to the founder with its own view alongside. See `CLAUDE.md` §5 and [decision](decisions/2026-11-25-two-way-street.md).
 
@@ -38,13 +38,13 @@ Founder (board: approves money, launches, publishing, contacts, GitHub pushes)
 | Chief of Staff | Set up persistent org pack + local git repo | **DONE** | This repository |
 | Chief of Staff | Two-way-street rule | **DONE** | [Decision](decisions/2026-11-25-two-way-street.md) |
 | Finance Analyst | Mrudu cartridge-capacity desk research | **STOPPED by founder 2026-11-26, then dropped for now**; no partial output | None. |
-| Chief of Staff | Migration package for the founder's personal account | **DONE** (founder does the transfer) | `export/venture-studio-2026-11-26.zip`, [MIGRATION.md](MIGRATION.md), [founder-preferences.md](founder-preferences.md). [Decision](decisions/2026-11-26-migrate-to-personal-account.md) |
+| Chief of Staff | Migration package for the founder's personal account | **DONE**: transferred and pushed to private GitHub repo SudarshanYadav/venture-studio on 2026-11-26 | `export/venture-studio-2026-11-26.zip`, [MIGRATION.md](MIGRATION.md), [founder-preferences.md](founder-preferences.md). [Decision](decisions/2026-11-26-migrate-to-personal-account.md) |
 
 **Blocker:** all Mrudu ad spend is blocked until cartridge capacity is measured ([decision](decisions/2026-11-25-mrudu-cartridge-capacity-blocker.md)). Founder said "Not yet" to the ~₹3–5k bench test on 2026-11-25.
 
-**Git:** not installed on this machine, so nothing from today is committed.
+**Git:** repo at https://github.com/SudarshanYadav/venture-studio (private, branch `main`). All studio work is committed and pushed (founder approved pushes to this repo on 2026-11-26).
 
-**Migration:** package built 2026-11-26: `export/venture-studio-2026-11-26.zip` (studio files only; the `export/` folder itself is not inside it). Steps for the founder in [MIGRATION.md](MIGRATION.md). Founder preferences now live in [founder-preferences.md](founder-preferences.md), not per-machine memory. The calculator artifact link above belongs to the old account.
+**Migration:** done 2026-11-26. The zip was unpacked in a Claude Code cloud session on the founder's personal account and pushed as commit `791d891`. Founder preferences live in [founder-preferences.md](founder-preferences.md), not per-machine memory. The calculator artifact link above is still on the old account and has not been republished; the local `ventures/mrudu-shower-softener/finance/calculator.html` is available.
 
 ## Next steps (awaiting founder direction)
 

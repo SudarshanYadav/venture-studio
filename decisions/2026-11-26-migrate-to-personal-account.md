@@ -14,3 +14,8 @@
 - Pre-zip scan found no secrets, `.env` files, `settings.local.json` or employer data (details in the Chief of Staff report to the CEO).
 - Open risk: the calculator artifact (https://claude.ai/artifact/CynyzBu2qb1XW1uxzsDFQ6) stays on the old account; open the local `calculator.html` or republish from the personal account.
 - Same day, the founder stopped and dropped the Finance Analyst's Mrudu cartridge-capacity desk research (no partial output).
+
+**Outcome (2026-11-26)**
+- Done. The studio was unpacked in a Claude Code cloud session on the founder's personal account and pushed to the private GitHub repo https://github.com/SudarshanYadav/venture-studio (commit `791d891`).
+- The founder created the repo and approved the push.
+- Still open: the calculator artifact remains on the old account; not yet republished.
