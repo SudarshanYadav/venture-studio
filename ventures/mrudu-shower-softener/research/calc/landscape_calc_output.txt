@@ -1,0 +1,24 @@
+Implied resin working capacity (eq per L resin) = L x ppm/50 / resin_L
+  Kent Bathroom 5.5 L (kent.co.in): 1.09 eq/L
+  Kent Auto 8 L (kent.co.in): 1.10 eq/L
+  ZeroB POU: 300 L x 500/50 = 3.0 eq per recharge; 600 L x 250/50 = 3.0 eq (consistent)
+
+ASSUMPTION daily shower water, 4 people: 288 L/day
+Salt price Rs/kg: 56 (15 kg bag) to 136 (5 kg bag)
+Kent-bath-size 5.5 L resin @ 200 ppm: 1513 L per regen, every 5.3 days, 70 regens/yr, 61 kg salt/yr, salt Rs 3,401 to 8,318
+Kent-bath-size 5.5 L resin @ 350 ppm: 864 L per regen, every 3.0 days, 122 regens/yr, 107 kg salt/yr, salt Rs 5,951 to 14,556
+Kent-bath-size 5.5 L resin @ 500 ppm: 605 L per regen, every 2.1 days, 174 regens/yr, 153 kg salt/yr, salt Rs 8,501 to 20,795
+Kent-8L-size 8 L resin @ 200 ppm: 2200 L per regen, every 7.6 days, 48 regens/yr, 61 kg salt/yr, salt Rs 3,401 to 8,318
+Kent-8L-size 8 L resin @ 350 ppm: 1257 L per regen, every 4.4 days, 84 regens/yr, 107 kg salt/yr, salt Rs 5,951 to 14,556
+Kent-8L-size 8 L resin @ 500 ppm: 880 L per regen, every 3.1 days, 119 regens/yr, 153 kg salt/yr, salt Rs 8,501 to 20,795
+
+12-month cost, conditioners (unit + 1 to 2 replacement cartridges; life 4-6 months claimed)
+  WaterScience CLEO SFM-419: Rs 3,640 to Rs 4,485
+  RiverSoft SF-15: Rs 2,233 to Rs 2,917
+  Purifit (Flipkart head): Rs 1,698 to Rs 2,397
+  Purifit Ultra: Rs 2,348 to Rs 3,197
+  WaterScience 2-pack cartridge 1,595 -> unit+2-pack = 4390
+  Scale-O Mini 1-year plan Rs 5,000; Semi 7,000; Centi 8,000 (scale-o.com)
+  Avimee 400 ml Rs 410 -> Rs 4920 per year IF one bottle/month (ASSUMPTION; dose per bucket '3 caps' per a reviewer, bottle yield unknown)
+D'Cal: n=932, mean=3.72, 1-2 star share=22.2%
+Avimee: n=4805, mean=4.18, 1-2 star share=10.0%

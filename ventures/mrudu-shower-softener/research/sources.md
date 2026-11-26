@@ -92,3 +92,62 @@ Tooling note: WebFetch could not resolve any host from this session (DNS); pages
 | u.ae e-commerce licence page | | B (404 at the URL from search); content S |
 | UAE Media Council advertiser permit (The National, Gulf News, Tamimi) | Permit mandatory for social-media advertising from about 1 Feb 2026; brand staff on own products reportedly exempt | S |
 | Uppersetup (mainland e-commerce AED 6,500 to 10,000 licence + AED 15,000 to 25,000 office); TDRA NOC | | S (vendor) |
+
+---
+
+# Addendum 2026-11-26: India landscape (players, prices, customer voice, channels)
+Status: **O** opened and read, **S** search snippet only, **B** blocked or could not open. All accessed 2026-11-26. Tooling: WebFetch cannot resolve hosts in this session, so pages were fetched with curl through the session proxy (no spoofed browser identity, no login) and converted to text. Raw: `research/raw/landscape/2026-11-26/`.
+
+## Blocked or empty (not worked around)
+| Source | Result |
+|---|---|
+| https://www.facebook.com/ads/library/ (country IN) | **B** 403, JavaScript-only. No ad counts or hooks |
+| instagram.com profiles (WaterScience, RiverSoft, Purifit, Kent, Scale-O) | **B** 302 to login. No follower counts |
+| https://www.amazon.in/s?k=bathroom+water+softener | **B** 503 error page |
+| reddit.com r/bangalore search | **B** returned an empty application shell; fetch tool also refuses reddit.com |
+| quora.com, team-bhp.com, techenclave.com, desidime.com, m.indiamart.com, sulekha.com | **B** 403 |
+| hello-klean.com, culligan.co.in, alkarawater.com, zerob.in, wevora.in | **B** proxy could not connect (502 or tunnel closed) |
+| yourstory.com WaterScience article | **B** 403 |
+| YouTube comments and per-video views | not in page source |
+| Meta Ad Library, Google Ads transparency, Quick commerce apps | not observable |
+
+## Players and prices
+| Source | What it gave | Status |
+|---|---|---|
+| https://www.kent.co.in/products/water-softener-kent-bathroom-water-softener | Bathroom softener ₹14,949; 5.5 L resin; 1,000 L/h; 1,500 L per regeneration at 200 ppm hardness; 880 g salt; 1-year warranty; resin service 12 to 18 months; 1 on-site review | O |
+| https://www.kent.co.in/products/kent-automatic-water-softener-8l | 8 L; ₹30,500; 1,200 L/h; 2,200 L at 200 ppm; 1.28 kg salt; 1 on-site review | O |
+| https://www.kent.co.in/ (home) | Instagram, Facebook, YouTube links; fbq pixel | O |
+| https://www.eurekaforbes.com/c/water-purifiers/aquaguard-water-softener | 14 Aquaguard softeners, prices ₹19,999 to ₹2,49,000; ion-exchange wording; hair/skin copy | O |
+| https://www.eurekaforbes.com/dp/GWPDWSC5H00000/aquaguard-aws-c-500-water-softener and .../GWPDWSI6H00000/aquaguard-aws-i-600-nxt-water-softener | ₹38,990 and ₹19,999; free installation and service plan; 1-year warranty | O |
+| https://www.flipkart.com/search?q=aquaguard+water+softener | I-250 ₹12,499; I-600 NXT ₹16,999; C-500 ₹37,990 | O |
+| Flipkart review pages for the three Aquaguard bathroom softeners | 0 ratings, 0 reviews each | O |
+| https://www.zerobonline.com/product/bathroom-softener-point-of-use/ | ₹9,891 (MRP 10,990); 8 to 10 L/min; max raw hardness 500 ppm; outlet below 50 ppm; 300 L at 500 ppm, 600 L at 250 ppm; manual, 30 min recharge | O |
+| https://www.zerobonline.com/product/zerob-nano-soft/ | ₹37,790; resin 4.8 L; 2.5 kg salt for four regenerations; up to 600 L/h | O |
+| https://www.zerobonline.com/water-softener/ | AS series 600 to 8,000 L/h; free installation, EMI | O |
+| https://www.bajajfinserv.in/zero-b-water-softener (via search) | AS1 about ₹46,150, AS2 about ₹64,990 | S |
+| https://www.bajajfinserv.in/alkara-water-softener | Alkara Bathroom Softener ₹4,999; Home Softener HS5 ₹54,099; "chemical-free" salt-free | O |
+| https://www.aosmithindia.com/ and /product/cws-25/ | CWS-25, CWS-40 automatic softeners listed; no price shown | O |
+| https://www.waterscience.in/products.json?limit=250 | RENO and Polaris, Aquilus prices; salt tablets ₹980 Bangalore only | O |
+| https://www.waterscience.in/products/reno-1500-multiple-bathroom-water-softener-automatic and .../polaris-softner-for-bathrooms-p10 | 1 bathroom ₹39,995, 2 bathrooms ₹49,995, whole house ₹69,995; apartment 64,995 to 94,995; warranty text | O |
+| https://scale-o.com/products.json and /products/mini-water-softener-500l-750l-tanks | Scale-O prices and subscription plans; "Does not reduce TDS" | O |
+| https://theriversoft.com/ , /pages/about-us ; https://purifit.in/ | Social links, pixel presence, about text | O |
+| https://www.flipkart.com/search?q= for: water softener for home, bathroom water softener, tap filter for hard water, whole house water softener, water softener salt, kent water softener, instant water softener avimee, water softener resin bathroom salt regeneration, scale inhibitor tank polyphosphate | Prices, ratings and counts for about 150 listings; result counts 271 to 11,324 | O |
+| Livpure, Pureit, Havells, Hindware, Kinetico home pages | No softener product found | O |
+| Livpure, A.O. Smith, 3M price searches | No Livpure softener found; A.O. Smith softener price not found; 3M commercial ₹4.27 lakh (dealer snippet) | S |
+
+## Customer voice
+| Source | Status |
+|---|---|
+| Flipkart review pages: Avimee, D'Cal, Scale-O, RiverSoft DIVA-01, WaterScience CLEO 717 and single-flow, Purifit Atom (URLs in customer-voice.md addendum) | O |
+| kent.co.in on-site reviews (2) | O |
+| https://www.indiawaterportal.org/questions/hard-borewell-water-jp-nagar-bangalore-karnataka-clarification-water-softener-and-ro (Dec 2010) and .../will-fitting-water-softener-affect-water-pressure-and-where-fit-softener-use-household (Mar 2013) | O (old) |
+
+## Channels
+| Source | What it gave | Status |
+|---|---|---|
+| https://www.youtube.com/@riversofthome, @purifit, @KentROSystemsLtd, @WaterScience_India, and the Pureit and A.O. Smith channel pages | Subscriber and video counts: RiverSoft 144K / 702; Purifit 650 / 124; Kent 51.1K / 19; WaterScience 4.72K / 343; Pureit 26.1K; A.O. Smith 10.3K | O |
+| https://www.youtube.com/results?search_query=water+softener+bangalore+borewell | Video titles incl. Kent bathroom softener review "₹250/Year Annual maintenance", 3M apartment softening | O (titles only) |
+| Home-page source of waterscience.in, theriversoft.com, purifit.in, scale-o.com, kent.co.in, aosmithindia.com | Meta pixel strings present (facebook_pixel or fbq) | O |
+| https://indianstartupnews.com/funding/d2c-brand-waterscience-raises-rs-14-crore-in-funding-from-peter-thiel-backed-velocity-9780760 (3 Sep 2025) | WaterScience: 70% YoY growth, Amazon, Flipkart, Shopify, more than 1,000 offline retailers; page says Rs 1.4 crore raise (URL says 14) | O |
+| https://india.entrepreneur.com/en-in/finance/waterscience-raises-funding-from-velocity/374714 (16 Jun 2021) | "internet-first brand with impressive returns on digital marketing"; target Rs 35 crore revenue that year (company statement) | O |
+| LinkedIn WaterScience 18,290 followers; 1mg and DesiDime WaterScience listings | | S |

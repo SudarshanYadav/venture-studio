@@ -1,0 +1,17 @@
+listings: {'atom': 8, 'avimee': 87, 'cleo717': 11, 'cleosingle': 4, 'dcal': 67, 'diva01': 13, 'scaleo': 8, 'wstank': 0} total 198
+hair_skin (motive): 37  {'avimee': 33, 'dcal': 2, 'diva01': 1, 'scaleo': 1}
+scale_stain_appliance (motive): 10  {'avimee': 2, 'cleo717': 1, 'dcal': 4, 'diva01': 1, 'scaleo': 2}
+tds_or_hardness_measure: 8  {'atom': 1, 'dcal': 5, 'scaleo': 2}
+no_effect: 54  {'atom': 3, 'avimee': 27, 'cleo717': 4, 'dcal': 19, 'scaleo': 1}
+short_life_vs_claim: 10  {'atom': 1, 'avimee': 2, 'cleosingle': 1, 'dcal': 6}
+adverse_after_use (hairfall/itch/dark): 11  {'avimee': 11}
+price_value_objection: 6  {'avimee': 2, 'dcal': 4}
+salt_or_maintenance: 5  {'dcal': 3, 'scaleo': 2}
+fake_review_distrust: 3  {'avimee': 2, 'dcal': 1}
+install_ease (positive): 7  {'avimee': 1, 'cleo717': 1, 'dcal': 1, 'diva01': 2, 'scaleo': 2}
+1-2 star reviews in sample: 67
+ low-star with no_effect : 51
+ low-star with short_life_vs_claim : 4
+ low-star with adverse_after_use (hairfall/itch/dark) : 10
+ low-star with price_value_objection : 2
+ low-star with tds_or_hardness_measure : 3
