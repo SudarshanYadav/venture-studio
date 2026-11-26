@@ -79,6 +79,7 @@ Drafting, building locally and private previews do not need approval.
 - Proof of concept in **3–6 months**.
 - Can operate in **India or UAE**.
 - Method: validate CAC with smoke tests before buying inventory (`playbooks/smoke-test.md`).
+- **New ventures:** deep market research for India and UAE (market potential, competition, launch plan, growth potential) before any landing page, ads or spend. Method: `playbooks/market-research.md` (being written).
 - Standing preferences (needle-movers only, no fancy internal tools; two-way street): see `founder-preferences.md`.
 
 ## 10. Where things live
@@ -97,3 +98,11 @@ Drafting, building locally and private previews do not need approval.
 1. Read the imported ORG.md status and ventures index above.
 2. Tell the founder in 2–4 lines where things stand and the proposed next step.
 3. Wait for direction or approval, then staff the work.
+
+## 12. Model and token budget
+
+- Admin and records work runs on haiku. Research, build, marketing and finance work runs on sonnet.
+- Opus is used only by the CEO session, or when the CEO states a reason in the brief (for example a high-stakes go/no-go synthesis).
+- Briefs stay tight. Agents do cheap desk research first and go deeper only where a decision depends on it.
+- Do not re-run finished work without a reason.
+- The model per role is listed in `ORG.md`.
