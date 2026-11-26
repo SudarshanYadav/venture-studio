@@ -22,7 +22,7 @@ From the unit economics:
 - Budget **~₹25k per product**, **~10 days**, target **≥25 paid pre-orders**.
 - Run **at least 1 week and include a payday** (1st of the month / salary week) to avoid day-of-week and cash-cycle bias.
 - 3–5 creative angles from customer research; broad targeting in the venture's geography; one optimisation event (Purchase).
-- Creatives and copy pass the compliance checklist (CLAUDE.md §6, Meta ad policy, ASCI).
+- Creatives and copy pass the compliance checklist (CLAUDE.md §7, Meta ad policy, ASCI).
 - Tracking sheet: daily spend, impressions, CPM, clicks, CPC, landing CVR, pre-orders, refunds.
 - Output: `ventures/<venture>/marketing/`.
 

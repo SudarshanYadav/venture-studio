@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" width="640" height="480" role="img" aria-labelledby="t d">
+  <title id="t">Illustration of a Mrudu shower softener and a test strip</title>
+  <desc id="d">Illustration only. A cylindrical softener unit fitted between a shower arm and a shower head, with a window showing resin beads. Below, an unused hardness test strip and the colour chart it is read against. The final unit may look different. This is not a measured result.</desc>
+  <defs>
+    <style>
+      .lb{font-family:'Atkinson Hyperlegible','Segoe UI',system-ui,sans-serif;font-size:13px;fill:#3E5260}
+      .lbb{font-family:'Atkinson Hyperlegible','Segoe UI',system-ui,sans-serif;font-size:13px;font-weight:700;fill:#14232E}
+      .wm{font-family:'Bricolage Grotesque','Segoe UI',system-ui,sans-serif;font-weight:700;font-size:17px;letter-spacing:-.5px;fill:#14232E}
+      .tag{font-family:'Atkinson Hyperlegible','Segoe UI',system-ui,sans-serif;font-size:12px;font-weight:700;fill:#FFFFFF}
+    </style>
+    <pattern id="beads" width="10" height="9" patternUnits="userSpaceOnUse">
+      <rect width="10" height="9" fill="#F3E4C2"/>
+      <circle cx="5" cy="4.5" r="4.1" fill="#D49A35"/>
+      <circle cx="3.8" cy="3.3" r="1.2" fill="#F6D493"/>
+    </pattern>
+    <linearGradient id="chrome" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E4EAEB"/><stop offset=".45" stop-color="#B7C2C5"/><stop offset="1" stop-color="#8E9DA1"/>
+    </linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/><stop offset=".7" stop-color="#F1F4F4"/><stop offset="1" stop-color="#D9E0E0"/>
+    </linearGradient>
+    <clipPath id="pill"><rect x="170" y="86" width="250" height="68" rx="34"/></clipPath>
+  </defs>
+
+  <!-- background -->
+  <rect width="640" height="480" rx="24" fill="#EEF2F1"/>
+  <!-- wall with tiles -->
+  <rect x="0" y="0" width="64" height="300" fill="#DCE3E2"/>
+  <path d="M0 60H64M0 120H64M0 180H64M0 240H64M32 0V60M32 120V180M16 60V120M48 60V120M16 180V240M48 180V240M32 240V300" stroke="#C9D3D2" stroke-width="2"/>
+  <rect x="58" y="96" width="10" height="48" rx="3" fill="url(#chrome)"/>
+
+  <!-- shower arm -->
+  <rect x="66" y="110" width="88" height="20" rx="4" fill="url(#chrome)"/>
+  <rect x="150" y="102" width="22" height="36" rx="4" fill="#8E9DA1"/>
+
+  <!-- softener unit -->
+  <g clip-path="url(#pill)">
+    <rect x="170" y="86" width="250" height="68" fill="url(#body)"/>
+    <rect x="170" y="86" width="22" height="68" fill="#0D5C63"/>
+    <rect x="398" y="86" width="22" height="68" fill="#0D5C63"/>
+  </g>
+  <rect x="170" y="86" width="250" height="68" rx="34" fill="none" stroke="#9AA8AB" stroke-width="2"/>
+  <rect x="206" y="100" width="118" height="40" rx="12" fill="url(#beads)" stroke="#C9D3D2" stroke-width="2"/>
+  <rect x="210" y="103" width="110" height="8" rx="4" fill="#FFFFFF" opacity=".45"/>
+  <text class="wm" x="333" y="126">mrudu</text>
+
+  <!-- outlet + neck + shower head -->
+  <rect x="418" y="102" width="22" height="36" rx="4" fill="#8E9DA1"/>
+  <rect x="438" y="110" width="34" height="20" rx="4" fill="url(#chrome)"/>
+  <g transform="rotate(32 470 120)">
+    <rect x="466" y="111" width="40" height="18" rx="4" fill="url(#chrome)"/>
+    <path d="M504 108 L548 78 L548 162 L504 132 Z" fill="url(#chrome)" stroke="#8E9DA1" stroke-width="1.5"/>
+    <ellipse cx="548" cy="120" rx="9" ry="42" fill="#C9D3D2" stroke="#8E9DA1" stroke-width="1.5"/>
+    <g stroke="#7FB7C9" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="6 9" opacity=".9">
+      <path d="M560 94 L620 82"/><path d="M562 108 L632 104"/><path d="M562 122 L632 126"/><path d="M562 136 L626 148"/><path d="M560 148 L612 166"/>
+    </g>
+  </g>
+
+  <!-- labels for the fitting -->
+  <path d="M110 132 V182" stroke="#3E5260" stroke-width="1.2"/>
+  <text class="lb" x="78" y="198">Shower arm</text>
+  <path d="M295 156 V182" stroke="#3E5260" stroke-width="1.2"/>
+  <text class="lbb" x="206" y="198">Softener unit</text>
+  <text class="lb" x="206" y="214">resin cartridge inside</text>
+  <path d="M518 230 V244" stroke="#3E5260" stroke-width="1.2"/>
+  <text class="lb" x="476" y="260">Shower head</text>
+
+  <!-- test strip (unused) + colour chart -->
+  <line x1="40" y1="300" x2="600" y2="300" stroke="#C9D3D2" stroke-width="1.5"/>
+  <rect x="64" y="338" width="250" height="30" rx="5" fill="#FFFFFF" stroke="#9AA8AB" stroke-width="1.5"/>
+  <rect x="200" y="344" width="18" height="18" rx="2" fill="#F7F9F9" stroke="#C9D3D2"/>
+  <rect x="226" y="344" width="18" height="18" rx="2" fill="#F7F9F9" stroke="#C9D3D2"/>
+  <rect x="252" y="344" width="18" height="18" rx="2" fill="#F7F9F9" stroke="#C9D3D2"/>
+  <rect x="278" y="344" width="18" height="18" rx="2" fill="#F7F9F9" stroke="#C9D3D2"/>
+  <text class="lbb" x="64" y="392">Hardness test strip, unused</text>
+  <text class="lb" x="64" y="408">Strips come in the box</text>
+
+  <rect x="368" y="338" width="34" height="30" rx="3" fill="#2F8F6B"/>
+  <rect x="408" y="338" width="34" height="30" rx="3" fill="#6E8F5E"/>
+  <rect x="448" y="338" width="34" height="30" rx="3" fill="#8F6A6A"/>
+  <rect x="488" y="338" width="34" height="30" rx="3" fill="#A24A6E"/>
+  <rect x="528" y="338" width="34" height="30" rx="3" fill="#B4346C"/>
+  <text class="lbb" x="368" y="392">Colour chart</text>
+  <text class="lb" x="368" y="408">softer</text>
+  <text class="lb" x="562" y="408" text-anchor="end">harder</text>
+
+  <!-- illustrative tag -->
+  <rect x="40" y="430" width="560" height="30" rx="6" fill="#14232E"/>
+  <text class="tag" x="320" y="450" text-anchor="middle">Illustration. Final unit may look different. Not a measured result.</text>
+</svg>

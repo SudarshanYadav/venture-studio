@@ -4,6 +4,88 @@ Owner: Finance · Status: planning model, nothing measured yet · Calculator: `f
 
 Every number below is an **assumption** unless marked "measured". The calculator has the same logic, and every input can be edited.
 
+## 0. Launch scenario: GST-inclusive, prepaid only (Mrudu) — USE THESE BARS
+
+Added 2026-11-25. This replaces the default (0% GST, COD-style 10% allowance) numbers in sections 3–4 for the Mrudu smoke-test decision. Nothing here is measured; all inputs are **assumptions**.
+
+### Numbers for the ad plan
+
+| | |
+|---|---|
+| **Max CAC (KILL above)** | **₹730** per paid pre-order, net of refunds |
+| **GO bar (70%)** | **₹511** (trust at ~25 orders only if ≤ **₹475**; KILL is certain only at ≥ **₹1,096**; in between, extend to ~50 orders) |
+| **Kill-per-ad rule** | Pause an ad once it has spent **~₹730 (1× max CAC) with zero purchases**; judge ad sets on CPO only after ~3 purchases each |
+
+CPO = Ads Manager spend ÷ paid pre-orders net of refunds. These bars assume GST on Meta spend is reclaimed as input tax credit (GSTIN on the ad account). If it is not, compare against the bars ÷ 1.18: max ₹619, GO ₹433.
+
+### Inputs (all assumptions)
+
+| Input | Value | Note |
+|---|---|---|
+| Price shown | ₹1,999 incl. all taxes | MRP rule |
+| GST rate | 18% | HSN 8421 21 (water filtering/purifying apparatus) assumed; **confirm with CA**. Cartridges/resin likely also 18%. |
+| Landed product cost (ex-GST) | ₹600 | Placeholder; **needs a supplier quote at our real first-batch MOQ** |
+| Outbound shipping (Bangalore intra-city) | ₹70 | |
+| Packaging incl. box insert + test strip | ₹40 | |
+| Payment gateway (Razorpay standard) | 2% of ₹1,999 + 18% GST on fee | GST on the fee is reclaimable if GST-registered; included anyway (conservative, ₹7) |
+| Pre-orders refunded later, before shipping | 10% of counted pre-orders | Razorpay keeps its fee on refunds |
+| Prepaid RTO (undeliverable) | 3% | vs 20–30% typical for COD; product returns to stock |
+| Post-delivery returns / defects | 5% | Loses two-way shipping, packaging, fee, and 50% of landed cost as write-off |
+| Return shipping | ₹70 | |
+| Repeat (cartridge) profit counted | 0% | Playbook rule for unproven durables |
+
+### Working (formulas, ₹)
+
+```
+Net price ex-GST          = 1,999 ÷ 1.18                                   = 1,694.07
+Gateway fee               = 1,999 × 2% × 1.18                              =    47.18
+Margin on a kept order M  = 1,694.07 − 600 − 70 − 40 − 47.18               =   936.89
+
+Loss per refunded pre-order (before ship) = fee                            =    47.18
+Loss per prepaid RTO      = fee + 70 out + 70 back + 40 packaging          =   227.18
+Loss per post-delivery return = RTO loss + 50% × 600 write-off             =   527.18
+Kept share                = 1 − 10% − 3% − 5%                              =    82%
+
+P1 per counted pre-order  = 82% × M − 10% × 47.18 − 3% × 227.18 − 5% × 527.18
+                          = 768.25 − 4.72 − 6.82 − 26.36                    =   730.36
+Max CAC                   = P1 + 0 (repeat counted)                        =   730.36
+GO (70%)                  = 0.70 × 730.36                                  =   511.25
+Trusted GO at 25 orders   = 0.65 × 730.36                                  =   474.73
+KILL (100%)               = 730.36
+Trusted KILL at 25 orders = 1.50 × 730.36                                  = 1,095.54
+```
+
+**Reconciliation with the earlier ≈ ₹744 (18% GST, everything else default):** ₹744.17 = 1,694.07 − 600 − 150 − 10% × 1,999. The new figure is ₹13.81 lower: fees/shipping are ₹157.18 itemised instead of ₹150 (−₹7.18), and the itemised refund/RTO/return losses total ₹206.53 instead of the flat ₹199.90 (−₹6.63). Prepaid-only cuts the RTO cost sharply, but it is offset by explicitly allowing for later pre-order refunds and post-delivery returns, which the old 10% also had to cover. In the calculator, entering GST 18, shipping/fees 157.18 and returns 10.33% reproduces ₹730 (defaults left unchanged).
+
+### Sensitivity: landed cost ±20% and CPC × CVR
+
+Bars by landed cost:
+
+| Landed cost | Max CAC | GO (70%) | Trusted GO (65%) | Trusted KILL (150%) |
+|---|---|---|---|---|
+| ₹480 (−20%) | ₹832 | ₹582 | ₹541 | ₹1,248 |
+| **₹600 (base)** | **₹730** | **₹511** | **₹475** | **₹1,096** |
+| ₹720 (+20%) | ₹629 | ₹440 | ₹409 | ₹943 |
+
+Implied CPO = CPC ÷ CVR, with the verdict at landed ₹480 / ₹600 / ₹720. G = trusted GO (≤65%), g = GO but extend to confirm (65–70%), I = ITERATE, K = KILL (extend to confirm if <150%), K! = trusted KILL.
+
+| CPC \ CVR | 1% | 1.5% | 2% | 3% |
+|---|---|---|---|---|
+| ₹8 | 800 I/K/K | 533 G/I/I | 400 G/G/G | 267 G/G/G |
+| ₹12 | 1,200 K/K!/K! | 800 I/K/K | 600 I/I/I | 400 G/G/G |
+| ₹15 | 1,500 K!/K!/K! | 1,000 K/K/K! | 750 I/K/K | 500 G/g/I |
+| ₹20 | 2,000 K!/K!/K! | 1,333 K!/K!/K! | 1,000 K/K/K! | 667 I/I/K |
+
+Rule of thumb at base cost: GO needs **CPC ≤ ~5.1 × CVR(%)** (for example ₹10 at 2%, ₹15 at 3%). At the old placeholder (₹12 CPC, 1.5% CVR) the verdict is now **KILL**, not ITERATE.
+
+### Cartridge repeat (information only, not in the bars)
+
+Counted at 0%, per the playbook for an unproven durable. If 25% of 12-month repeat were counted (2 cartridges/yr at ₹599 incl. GST, 60% margin on the ex-GST price), max CAC would rise by about **₹152** (to ≈ ₹883), or only about **₹90** if each cartridge order carries its own ₹110 shipping/packaging and gateway fee.
+
+### Budget check
+
+25 orders cost ₹12,781 at the GO bar and ₹18,259 at max CAC. ₹25,000 buys 25 orders only if CPO ≤ ₹1,000, so the ~₹25k budget is enough to reach either a GO or a clear KILL, but a result in the 65–150% band needs ~50 orders (up to ~₹36–50k) to decide.
+
 ## 1. Assumptions
 
 | Input | Mrudu (shower softener, Bangalore) | Lavan (electrolyte mix, 20 sachets) |

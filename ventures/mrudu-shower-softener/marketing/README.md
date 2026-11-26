@@ -1,5 +1,5 @@
-# marketing: not started
-
-Not started. Restart from the brief: `../BRIEF.md`, with `../../../playbooks/smoke-test.md`.
-
-An earlier marketing assignment was stopped before delivery on 2026-11-25; its partial output was unreviewed and was intentionally **not** carried over. Start from scratch.
+# marketing: Mrudu smoke test (draft, not launched)
+- `test-plan.md`: Meta campaign setup, budget, schedule, kill/keep and GO/ITERATE/KILL rules, compliance table.
+- `creatives.md`: 4 angles, copy and shot briefs.
+- `tracking.csv`: daily tracking sheet (orders from Razorpay, net of refunds).
+- `offline-test.md`: RWA test-strip demo with pitch and tally sheet.
