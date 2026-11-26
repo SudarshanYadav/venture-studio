@@ -1,0 +1,68 @@
+== 1. Resin capacity per litre of resin
+total capacity (datasheet) = 95.0 g CaCO3/L resin; PWP working figure = 73.2 g/L
+== 2. Litres softened by a shower-arm cartridge before exhaustion
+resin 0.10 L, hardness 200:    37-   48 L softened = 0.5-0.9 showers
+resin 0.10 L, hardness 350:    21-   27 L softened = 0.3-0.5 showers
+resin 0.10 L, hardness 600:    12-   16 L softened = 0.2-0.3 showers
+resin 0.20 L, hardness 200:    73-   95 L softened = 0.9-1.9 showers
+resin 0.20 L, hardness 350:    42-   54 L softened = 0.5-1.1 showers
+resin 0.20 L, hardness 600:    24-   32 L softened = 0.3-0.6 showers
+resin 0.35 L, hardness 200:   128-  166 L softened = 1.6-3.3 showers
+resin 0.35 L, hardness 350:    73-   95 L softened = 0.9-1.9 showers
+resin 0.35 L, hardness 600:    43-   55 L softened = 0.5-1.1 showers
+== 3. Flow check: service-flow limit 8-40 BV/h (Purolite, Resinex, Lewatit sheets via search; Purolite C100 text)
+resin 0.10 L at 6 L/min = 3,600 BV/h = 90x the 40 BV/h maximum
+resin 0.10 L at 10 L/min = 6,000 BV/h = 150x the 40 BV/h maximum
+resin 0.20 L at 6 L/min = 1,800 BV/h = 45x the 40 BV/h maximum
+resin 0.20 L at 10 L/min = 3,000 BV/h = 75x the 40 BV/h maximum
+resin 0.35 L at 6 L/min = 1,029 BV/h = 26x the 40 BV/h maximum
+resin 0.35 L at 10 L/min = 1,714 BV/h = 43x the 40 BV/h maximum
+resin volume needed for 40 BV/h at 8 L/min: 12.0 L
+== 4. Cross-check vs Pure Water Products 2.5x9.75in cartridge (opened): 15 gal @ 40 gpg, 45 gal @ 15 gpg
+15 gal @ 40 gpg = 57 L @ 684 mg/L -> implied 63 g/L over ~0.62 L resin
+45 gal @ 15 gpg = 170 L @ 256 mg/L -> implied 71 g/L over ~0.62 L resin
+105 gal @ 7 gpg = 397 L @ 120 mg/L -> implied 77 g/L over ~0.62 L resin
+== 5. Bathroom-scale regenerable unit sizing (pivot idea)
+2 people x 60 L at 250 mg/L = 30 g/day -> resin for 7-day regen: 3.5-5.2 L
+2 people x 60 L at 350 mg/L = 42 g/day -> resin for 7-day regen: 4.9-7.3 L
+2 people x 60 L at 500 mg/L = 60 g/day -> resin for 7-day regen: 7.0-10.5 L
+3 people x 60 L at 250 mg/L = 45 g/day -> resin for 7-day regen: 5.2-7.9 L
+3 people x 60 L at 350 mg/L = 63 g/day -> resin for 7-day regen: 7.3-11.0 L
+3 people x 60 L at 500 mg/L = 90 g/day -> resin for 7-day regen: 10.5-15.8 L
+4 people x 60 L at 250 mg/L = 60 g/day -> resin for 7-day regen: 7.0-10.5 L
+4 people x 60 L at 350 mg/L = 84 g/day -> resin for 7-day regen: 9.8-14.7 L
+4 people x 60 L at 500 mg/L = 120 g/day -> resin for 7-day regen: 14.0-21.0 L
+== 6. Bengaluru TAM/SAM (households)
+TAM households = 607,500 - 1,413,600; at Rs1,999 = Rs 121-283 crore (one-time)
+SAM households = 364,500 - 1,130,880
+Owner-occupier SAM (pivot) = 127,575 - 565,440
+== 7. Competitor-led (India, Flipkart ratings as a demand proxy)
+ratings/unit 1%: lifetime Flipkart units of top 9 = 687,900
+ratings/unit 3%: lifetime Flipkart units of top 9 = 229,300
+ratings/unit 5%: lifetime Flipkart units of top 9 = 137,580
+top-9 rating total 6879
+WaterScience claim spread over 4 yrs = 375,000 customers/yr ~ Rs 75 crore/yr at Rs2,000
+WaterScience claim spread over 6 yrs = 250,000 customers/yr ~ Rs 50 crore/yr at Rs2,000
+WaterScience claim spread over 8 yrs = 187,500 customers/yr ~ Rs 38 crore/yr at Rs2,000
+== 8. Star distribution, share of 1-2 star
+CLEO tap: n=4381 1-2 star 18.7%  mean 3.83
+RiverSoft SF-15: n=924 1-2 star 17.4%  mean 3.93
+DIVA PRO: n=442 1-2 star 15.8%  mean 3.97
+Purifit: n=356 1-2 star 9.0%  mean 4.36
+Snix: n=308 1-2 star 22.7%  mean 3.70
+CLEO 423 HHC: n=226 1-2 star 17.3%  mean 3.88
+== 9. Channel-led SOM and side-income gap (India, Bangalore)
+12-month SOM orders = 329-1,333; revenue Rs 6.6-26.7 lakh
+CPO 450: net per order Rs280; orders/month for Rs50k = 178
+CPO 511: net per order Rs219; orders/month for Rs50k = 228
+CPO 600: net per order Rs130; orders/month for Rs50k = 384
+== 10. UAE price check
+AED 229 = Rs 5,300
+AED 339 = Rs 7,846
+AED 380 = Rs 8,795
+UAE CPC $1.0 CVR 1%: CPO AED 367
+UAE CPC $1.0 CVR 2%: CPO AED 184
+UAE CPC $1.0 CVR 3%: CPO AED 122
+UAE CPC $1.65 CVR 1%: CPO AED 606
+UAE CPC $1.65 CVR 2%: CPO AED 303
+UAE CPC $1.65 CVR 3%: CPO AED 202

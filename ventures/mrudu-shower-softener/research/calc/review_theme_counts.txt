@@ -1,0 +1,6 @@
+Counter({'other': 153, 'Bengaluru': 28}) 181
+no change/does not work neg 32 / 87  pos 0 / 82
+TDS meter used neg 5 / 87  pos 1 / 82
+breakage/fit/leak neg 24 / 87  pos 9 / 82
+hair/skin outcome neg 4 / 87  pos 27 / 82
+low flow neg 2 / 87  pos 2 / 82

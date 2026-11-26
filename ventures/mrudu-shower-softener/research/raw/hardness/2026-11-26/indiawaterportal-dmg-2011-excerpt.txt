@@ -1,0 +1,122 @@
+-   Data
+Governance
+Hydrology and quality of groundwater in and around Bangalore city - Review and excerpts from the report released in March 2011, by the Department of Mines and Geology (Govt of Karnataka)
+The Department of Mines and Geology, Government of Karnataka recently released a report on the hydrology and quality of groundwater in and around Bangalore city.
+Author:
+Vijay Krishna
+Updated on: 
+10 May 2011, 3:04 pm
+[]
+6 min read
+-   []
+-   []
+-   []
+-   []
+-   []
+-   []
+    Copied
+[]
+[]
+Follow Us
+[]
+ A welcome and important document, it brings up-to-date our understanding of the rapidly changing groundwater situation in Bangalore.
++----------------------+--------------------------------+---------------------------------+------------------+
+| Month                | New borewells added each month | Borewells registered with BWSSB | Monthly % growth |
++----------------------+--------------------------------+---------------------------------+------------------+
+| Jan-09               |                                | 91018                           |                  |
++----------------------+--------------------------------+---------------------------------+------------------+
+| Feb-09               | 924                            | 91942                           | 1.02             |
++----------------------+--------------------------------+---------------------------------+------------------+
+| Mar-09               | 705                            | 92647                           | 0.77             |
++----------------------+--------------------------------+---------------------------------+------------------+
+| Apr-09               | 965                            | 93612                           | 1.04             |
++----------------------+--------------------------------+---------------------------------+------------------+
+| May-09               | 1136                           | 94748                           | 1.21             |
++----------------------+--------------------------------+---------------------------------+------------------+
+| Jun-09               | 748                            | 95496                           | 0.79             |
++----------------------+--------------------------------+---------------------------------+------------------+
+| Jul-09               | 904                            | 96400                           | 0.95             |
++----------------------+--------------------------------+---------------------------------+------------------+
+| Aug-09               | 868                            | 97268                           | 0.90             |
++----------------------+--------------------------------+---------------------------------+------------------+
+| Sep-09               | 2062                           | 99330                           | 2.12             |
++----------------------+--------------------------------+---------------------------------+------------------+
+| Oct-09               | 838                            | 100168                          | 0.84             |
++----------------------+--------------------------------+---------------------------------+------------------+
+| Nov-09               | 875                            | 101043                          | 0.87             |
++----------------------+--------------------------------+---------------------------------+------------------+
+| Dec-09               | 2699                           | 103742                          | 2.67             |
++----------------------+--------------------------------+---------------------------------+------------------+
+| Jan-10               | 1759                           | 105501                          | 1.70             |
++----------------------+--------------------------------+---------------------------------+------------------+
+| Total as on Jan-2010 | 14483                          | 105501                          | 15.91            |
++----------------------+--------------------------------+---------------------------------+------------------+
+Growth of bore wells during February 2009 to January 2010 in Bangalore city
+Groundwater crisis in the city
+The report points to the incredible rush to sink borewells, estimating that
+570 MLD (million liters a day)
+of Bangalore's water consumption comes from groundwater, in order to make up the shortfall from supply through Arkavathi and Cauvery. In the period from February 2009 to January 2010,
+14483 borewells
+were drilled in the 'core area' of 330 sq. km. covered by BWSSB.
+Cumulatively, as of Jan 2010 there were
+105,501 borewells
+registered with the BWSSB in this core area. Extrapolating to the newly added area of 380 sq km. where the borewell density is expected to be at least as high (since there is no BWSSB water), the total borewell population is estimated at 2.25 lakh.
+[Map showing location of water samples collected in Bangalore city]
+Map showing location of water samples collected in Bangalore city
+Map showing location of water samples collected in Bangalore city
+The report estimates that the exploitation of groundwater is twice that of sustainable levels. Groundwater is divided into static and dynamic resources; the dynamic groundwater resource is the groundwater that is replenished from the rain every year. The report estimates that we are exploiting groundwater at twice the size of the dynamic resource. This means we are tapping into the static groundwater resource (i.e. deep water that is not easily rechargeable). Therefore the resource quantity will keep decreasing every year until all the water is tapped out. The report succinctly states: "
+The uninhibited drilling of borewells is a pointer to the city slipping to the brink of a major groundwater crisis
+".
+[Groundwater quality (drinking) map of Bangalore city]
+Groundwater quality (drinking) map of Bangalore city
+Groundwater quality (drinking) map of Bangalore city
+The depth of water in 'shallow' aquifers has been consistently monitored at 13 places in the city from 1975. Surprisingly the depth to the water table has not increased much since then. Of course this does not refer to the deep waters that borewells tap, but nevertheless this is unexpected, and perhaps requires an explanation from a qualified / experienced hydrologist.
+[Spatial distribution of nitrate in groundwater in Bangalore city]
+Spatial distribution of nitrate in groundwater in Bangalore city
+Spatial distribution of nitrate in groundwater in Bangalore city
+The report also strongly advocates rainwater harvesting, groundwater recharge and revival of lakes as the way forward.
+Water Quality
+Regarding water quality, 2209 groundwater samples were analyzed, covering the entire city area and analyzed.
+Nitrate
+content is in excess of the permissible limit in 29% of the samples,
+iron
+in 10%,
+total hardness
+in 8.5% and
+fluoride
+in 0.6%. After accounting for samples in which more than one parameter was beyond permissible limits,
+31% of the groundwater samples were not up to drinking water standards
+.
+While this is highly disturbing in itself, this is actually down from the still more alarming 50% that a similar study in 2003 had found. The improvement is welcome news, but also puzzling in that there are no strong causative factors that come to mind that could have caused an improvement. The city continues to be cavalier about its management of groundwater with the notable exception of the legislation that makes rainwater harvesting compulsory. However so far it is not being enforced with any degree of seriousness. On the other hand, a closer look at the two studies shows that the 2003 study covered 400 sq km. of area while the current study covers a larger area of 741 sq km., necessitated by the creation of the Bruhat Bangalore Mahanagara Palike (BBMP). In that sense we cannot directly compare the two sets of results and it might actually be that the groundwater quality in the older Bangalore area has actually worsened from 2003.
+[Spatial distribution of flouride in groundwater in BBMP area in Bangalore city]
+Spatial distribution of flouride in groundwater in BBMP area in Bangalore city
+Spatial distribution of flouride in groundwater in BBMP area in Bangalore city
+It may be noted that the water testing was done in the pre-monsoon period of 2010.
+TDS (Total Dissolved Solids):
+68% of samples had
+TDS
+ranging from 500mg/L to 2000 mg/L. While this range is permissible by Indian drinking water standards, the water filtration companies have been scaring people about TDS being higher than the desirable level of 500 mg/L. Hence the proliferation of RO systems in the city of late.
+Water with high TDS indeed might have an undesirable taste and may not be comfortable to bathe in, but the scare raised by sales people should be taken with a pinch of salt.
+Nitrate:
+ Nitrate contamination is one of the big worries in Bangalore. The permissible limit is 45 mg/L and nitrate is harmful particularly to babies. 29% of the samples tested had higher than permissible nitrate content. The samples are also quite evenly distributed throughout the city so there is no area that is really safe on this.
+Fluoride:
+ Fluoride is a severe problem in many areas of the state and country seems to be making its entry in a small way in Bangalore. 16 samples tested higher than permissible for fluoride out of 2209. If you are drinking borewell water extracted in the Bellandur area, you might want to get your water tested.
+Heavy metals:
+Special testing was done for
+heavy metals
+in industrial areas. Samples from the following areas showed high levels (much above drinking water standard) of contaminants:
+Zinc
+: Gollahalli (Bommanahalli), Hosapalya(including CMC supply), Somasundarapalya (HSR 2nd Sector), ITI Layout (Hosapalya), Anu Polymers (Rajajinagar Industrial Town), Reshma Dyeing Factory (Rajajinagar Industrial Area)
+Manganese
+: Peenya Industrial Area (11th Cross, 4th Phase), Hegganahalli (Srigandhanagar), Hosapalya (BBMP Nursery), Rajajinagar Industrial Town (Anu Polymers), Rajajinagar (Agrahara Dasarahalli), Old Madras Road Industrial Area (Virgonagar)
+Chromium
+: 3rd Phase Peenya Industrial Area, Peenya 2nd Stage (Adrahalli Main Road), Peenya 2nd Stage (Andrahalli Main Road, Kaverinagar), Peenya 2nd Stage (Rajagopal Nagar), Hegganahalli (Srigandhanagar), Yelahanka New Town, Rajajinagar Industrial Town (Swadesh Industrial Supplier), Rajajinagar Industrial Town (Anu Polymers)
+People living in these areas have reason to be concerned and should get their water tested.
+The big picture
+Overall the report confirms the general feeling that we are over-exploiting groundwater; unfortunately the report is lacking sufficient specifics to make people sit up and take notice. Regarding water quality, the report alerts us to areas of concern, particularly nitrates and heavy metals. In the absence of effective water governance, citizens need to be much more proactive about awareness and monitoring of the quality of water they drink.
+One of the simplest things one can do is to get our water tested at the Department of Mines and Geology, the same organisation that put out this report. Their address is 49, Khanija Bhavan, Racecourse Road. Website of the department: http://mines.kar.nic.in/.
+Take a clean bottle filled with a liter of the water you drink after rinsing it in the same water. Don’t use empty juice or cola bottles. The test costs about Rs 400/- (Call them at 22269632 for exact amount and payment mode). You can also get your water tested at several private laboratories in the city, a list can be found here: https://www.indiawaterportal.org/post/1797.
+Source of data discussed above
+: “Groundwater hydrology and gGroundwater quality in and around Bangalore city” , March 2011, Department of Mines and Geology, 49, Khanija Bhavan, Race Course Road, Bangalore - 560001. The report can be purchased from their office on payment of Rs 700/- by demand draft.
+ 
+Related articles:

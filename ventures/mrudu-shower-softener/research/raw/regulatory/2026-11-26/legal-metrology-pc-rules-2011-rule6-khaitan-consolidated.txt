@@ -1,0 +1,378 @@
+6.        Declarations to be made on every package.—
+
+         (1)        Every package shall bear thereon or on label securely affixed thereto, a definite, plain
+                    and conspicuous declaration made in accordance with the provisions of this chapter
+                    as, to—
+
+                   (a)        the name and address of the manufacturer, or where the manufacturer is not
+                              the packer, the name and address of the manufacturer and packer and for any
+                              imported package the name and address of the importer shall be mentioned:
+                              14
+                                [Provided that in the case of an electronic product, the package of such
+                              product shall declare the name of the manufacturer or packer or importer, as
+                              the case may be, on the package itself, and such declaration shall also inform
+                              the consumers to scan the QR code for the address and other related
+                              information, if such information is declared through the QR Code and not
+                              declared on the package itself;]
+
+                              Explanation I.—If any name and address of a company is mentioned on the
+                              label without any qualifying words ‘manufactured by’ or ‘packed by’, it shall
+                              be presumed that such name and address shall be that of the manufacturer
+                              and the liability shall be determined accordingly;
+
+                              Explanation II.—If the brand name and address of the brand owner appear on
+                              the label as a marketer, then the brand owner shall be held responsible for
+                              any violation of these rules and action as may be required shall be initiated
+                              against the deemed manufacturer and in the event of more than one name
+                              and address appearing in the label, prosecution shall be launched against the
+                              manufacturer indicated on the label, in the first place and not against all of
+                              them.
+                              15
+                                [Explanation III.—In respect of packages containing food articles, the
+                              provisions of this clause shall not apply, but the provisions of, and the
+                              requirements specified in the Food Safety and Standards Act, 2006 (34 of
+                              2006) and the rules made thereunder shall apply;]
+                   16
+                     [(aa) The name of the country of origin or manufacture or assembly in case of
+                           imported products shall be mentioned on the package;]
+
+                   (b)        The common or generic names of the commodity contained in the package
+                              and in case of packages with more than one product, the name and number
+                              or quantity of each product shall be mentioned on the package:
+                              17
+                               [Provided that in the case of an electronic product, the package of such
+                              product shall inform the consumers to scan the QR code for the common or
+
+14 Substituted by G.S.R. 456(E), dated 23-06-2023, w.e.f. 23-06-2023. Prior to substitution, it read as:
+
+“Provided that in the case of an electronic product which is manufactured or packed or imported after the 15th July, 2022,
+the package of such product shall, for a period of one year from such date, declare the name of the manufacturer or packer
+or importer, as the case may be, on the package itself and such declaration shall also inform the consumers to scan the QR
+code for the address and other related information, in case such information is declared through the QR Code and not
+declared on the package itself;”
+15 Substituted by G.S.R. 629(E), dated 23-06-2017, w.e.f. 01-01-2018.
+16 Inserted by G.S.R. 629(E), dated 23-06-2017, w.e.f. 01-01-2018.
+17 Substituted by G.S.R. 456(E), dated 23-06-2023, w.e.f. 23-06-2023. Prior to substitution, it read as:
+                             generic name of the commodity and where such package contains more than
+                             one product, then for the name and number or quantity of each product, if
+                             such information is declared through the QR Code and not declared on the
+                             package itself.]
+
+                   (c)       The net quantity, in terms of the standard unit of weight or measure, of the
+                             commodity contained in the package or where the commodity is packed or
+                             sold by number, the number of the commodity contained in the package shall
+                             be mentioned.
+
+                   (d)       The month and year in which the commodity is manufactured 18[* * *] shall
+                             be mentioned in the package:
+
+                             Provided that for packages containing food articles, the provisions of the
+                             19
+                               [Food Safety and Standards Act, 2006 (34 of 2006)] and the rules made
+                             thereunder shall apply:
+
+                             Provided further that nothing in this sub-clause shall apply in case of packages
+                             containing seeds which are labelled and certified under the provisions of the
+                             Seeds Act, 1966 (54 of 1966) and the rules made thereunder:
+                             20
+                               [* * *]
+
+                             Provided also that for packages containing cosmetics products, the provisions
+                             of the Drugs and Cosmetics Rules, 1945 shall apply.
+                   21
+                     [(da) If a package contains a commodity which may become unfit for human
+                           consumption after a period of time, the ‘best before or use by the date, month
+                           and year’ shall also be mentioned on the label:
+
+                             Provided that nothing in this clause shall apply if a provision in this regard is
+                             made in any other law.
+
+                             Explanation 1.—For the purposes of this sub-rule,—
+
+                             (a)         the expression “best before” means the date which signifies the end
+                                         of the period under any stated storage conditions during which the
+                                         product shall remain fully marketable and shall retain any specific
+                                         qualities for which tacit or express claims have been made and beyond
+                                         the date commodity may still be safe for consumption;
+
+                             (b)         the expression “Use by Date” means the date which signifies the end
+                                         of the estimated period under any stated storage conditions after
+
+“Provided that in the case of an electronic product which is manufactured or packed or imported after the 15th July, 2022,
+the package of such product shall, for a period of one year from such date, inform the consumers to scan the QR code for
+the common or generic name of the commodity and where such package contains more than one product, then for the name
+and number or quantity of each product, in case such information is declared through the QR Code and not declared on the
+package itself.”
+18 Words “or pre-packed or imported” omitted by G.S.R. 779(E), dated 02-11-2021, w.e.f. 01-10-2022.
+19 Substituted for “Prevention of Food Adulteration Act, 1954 (37 of 1954)” by G.S.R. 427(E), dated 05-06-2012, w.e.f. 05-06-
+
+2012.
+20 Omitted by G.S.R. 784(E), dated 24-10-2011, w.e.f. 01-07-2012. Prior to omission, it read as:
+
+“Provided that a manufacturer may indicate the month and year using a rubber stamp without overwriting:”
+21 Inserted by G.S.R. 629(E), dated 23-06-2017, w.e.f. 01-01-2018.
+                                        which the product shall not have the quality attributes normally
+                                        expected by the consumers and after this date, the commodity should
+                                        not be regarded as marketable.]
+
+                   (e)        the retail sale price of the package 22[shall clearly indicate that it is the
+                              maximum retail price inclusive of all taxes 23[in Indian currency:]
+
+                              Provided that for packages containing alcoholic beverages or spirituous liquor,
+                              the State Excise Laws and the rules made thereunder shall be applicable within
+                              the State in which it is manufactured and where the State Excise Laws and
+                              rules made thereunder do not provide for declaration of retail sale price, the
+                              provisions of these rules shall apply:
+                              24
+                                [Provided further that if the retail sale price of any essential commodity is
+                              fixed and notified by the Competent Authority under the Essential
+                              Commodities Act, 1955 the same shall apply.]
+
+                   (f)        Where the sizes of the commodity contained in the package are relevant, the
+                              dimensions of the commodity contained in the package and if the dimensions
+                              of the different pieces are different, the dimensions of each such different
+                              piece shall be mentioned:
+                              25
+                               [Provided that in the case of an electronic product, the package of such
+                              product shall inform the consumers to scan the QR code for the size and
+                              dimension of the commodity if such information is declared through the QR
+                              Code and not declared on the package itself.]
+
+                   (g)        such other matters as are specified in these rules:
+
+                   Provided that—
+
+                   (A)        no declaration as to the month and year in which the commodity is
+                              manufactured or pre-packed shall be required to be made on—
+
+                              (i)       any package containing bidi or incense sticks;
+
+                              (ii)      any domestic liquified petroleum gas cylinder of 14.2 kg or 5 kg,
+                                        bottled and marketed by a public sector undertaking;
+
+
+
+
+22 Inserted by G.S.R. 629(E), dated 23-06-2017, w.e.f. 01-01-2018.
+23 Substituted by G.S.R. 779(E), dated 02-11-2021, w.e.f. 01-10-2022. Prior to substitution, it read as:
+
+“and the price in rupees and paise be rounded off to the nearest rupee or 50 paise;
+Illustrations.—For declaration of retail sale price:
+     (a) Maximum or Max. retail price Rs or Rs. xx.xx (inclusive of all taxes), or
+     (b) Maximum or Max. retail price Rs or Rs. xx.xx (inclusive of all taxes), or
+     (c) MRP Rs or Rs. xx.xx (inclusive of all taxes), or
+     (d) MRP Rs or Rs. xx.xx (inclusive of all taxes).”
+24 Inserted by G.S.R. 858(E), dated 07-09-2016, w.e.f. 07-09-2016.
+25 Substituted by G.S.R. 456(E), dated 23-06-2023, w.e.f. 23-06-2023. Prior to substitution, it read as:
+
+“Provided that in the case of an electronic product which is manufactured or packed or imported after the 15th July, 2022,
+the package of such product shall, for a period of one year from such date, inform the consumers to scan the QR code for
+the size and dimension of the commodity, in case such information is declared through the QR Code and not declared on the
+package itself.”
+                    (B)       where any packaging material bearing thereon the month in which any
+                              commodity was expected to have been pre-packed is not exhausted during
+                              that month, such packaging material may be used for pre-packing the
+                              concerned commodity produced or manufactured during the next succeeding
+                              month and not thereafter, but the Central Government may, if it is satisfied
+                              that such packaging material could not be exhausted during the period
+                              aforesaid by reason of any circumstance beyond the control of the
+                              manufacturer or packer as the case may be extend the time during which such
+                              packaging material may be used, and, where any such packaging material is
+                              exhausted before the expiry of the month indicated thereon, the packaging
+                              material intended to be used during the next succeeding month may be used
+                              for pre-packing the concerned commodity:
+
+                              Provided that the said provision shall not apply to the packages containing
+                              food products, where the ‘Best before or Use before’ period is ninety days or
+                              less from the date of manufacture or packing.'
+
+                    (C)       no declaration as to the retail sale price shall be required to be made on—
+
+                              (i)       any package containing bidi;
+
+                              (ii)      any domestic liquefied petroleum gas cylinder of which the price is
+                                        covered under the Administrative Price Mechanism of the
+                                        Government.
+
+                    Explanation I.—The month and the year in which commodity is pre-packed may be
+                    expressed either in words, or by numerals indicating the month and the year, or by
+                    both.
+         26
+           [(2)     Every package shall bear the name, address, telephone number, e-mail address of the
+                    person who can be or the office which can be contacted, in case of consumer
+                    complaints:]
+                    27
+                      [Provided that in the case of an electronic product, the package of such product shall
+                    declare the telephone number and e-mail address on the package itself, and such
+                    declaration shall also inform the consumers to scan the QR code for other related
+                    information if such information is declared through the QR Code and not declared on
+                    the package itself.]
+
+         (3)        It shall not be permissible to affix individual stickers on the package for altering or
+                    making declaration required under these rules:
+
+                    Provided that for reducing the Maximum Retail Price (MRP), a sticker with the revised
+                    lower MRP (inclusive of all taxes) may be affixed and the same shall not cover the MRP
+
+
+26 Substituted by G.S.R. 385(E), dated 14-05-2015, w.e.f. 01-01-2016. Prior to substitution, it read as:
+
+‘(2) Every package shall bear the name, address, telephone number, E-mail address, if available, of the person who can be or
+     the office which can be, contacted, in case of consumer complaints.”
+27 Substituted by G.S.R. 456(E), dated 23-06-2023, w.e.f. 23-06-2023. Prior to substitution, it read as:
+
+“Provided that in the case of electronic product, which are manufactured or packed or imported after the 15th July, 2022,
+the package of such product shall, for a period of one year from such date, declare the telephone number and e-mail address,
+on the package itself and such declaration shall also inform the consumers to scan the QR code for other related information
+in case such information is declared through the QR Code and not declared on the package itself.”
+                   declaration made by the manufacturer or the packer, as the case may be, on the label
+                   of the package.
+
+         (4)       It shall be permissible to use stickers for making any decleration other than the
+                   declaration required to be made under these rules.
+         28
+           [(4-A) Nothing in this rule shall preclude a manufacturer or packer or importer to declare the
+                  following on the package, in addition to the mandatory declarations—
+
+                   (a)       Barcode or GTIN or QR Code;
+
+                   (b)       ‘e-code’ for net quantity assurance of the commodity and other required
+                             declarations, after obtaining the same in the manner as specified by the
+                             Central Government;
+
+                   (c)       logos of Government schemes, such as Swatch Bharat Mission, where such
+                             use is authorised by the Central Government.]
+
+         (5)       Where a commodity consists of a number of components and these components are
+                   packed in two or more units, for sale as a single commodity, the declaration required
+                   to be made under sub-rule (1) shall appear on the main package and such package
+                   shall also carry information about the other accompanying packages or such
+                   declaration may be given on individual packages and intimation to that effect may be
+                   given on the main package and if the components are sold as spare parts, all
+                   declarations shall be given on each package.
+         29
+           [(6)    Any packaging material or wrapper which could not be exhausted by the manufacturer
+                   or packer may be used for packing of the material 30[up to 31st March, 2012] or till
+                   such date the packaging material of wrapper is exhausted, whichever is earlier, after
+                   making the corrections required under these rules by way of stamping or putting
+                   sticker or online printing, as the case may be.]
+         31
+           [(7)    Every package containing the genetically modified food shall bear at the top of its
+                   principal display panel the words “GM”.]
+         32
+           [(8)    Every package containing soap, shampoos, tooth pastes and other cosmetics and
+                   toiletries shall bear at the top of its principal display panel a red or as the case may be,
+                   brown dot for products of non-vegetarian origin and a green dot products of
+                   vegetarian origin.]
+         33
+           [(9)    Without prejudice to the provisions contained in this rule, it shall be permissible to
+                   affix a label on imported packages for making the declarations required under these
+                   rules.]
+         34
+           [(10) An E-Commerce entity shall ensure that the mandatory declarations as specified in
+                 sub-rule (1), except the month and year in which the commodity is manufactured or
+
+28 Inserted by G.S.R. 629(E), dated 23-06-2017, w.e.f. 01-01-2018.
+29 Inserted by G.S.R. 318(E), dated 13-04-2011, w.e.f. 13-04-2011.
+30 Substituted for “up to 30th September, 2011” by G.S.R. 734(E), dated 30-09-2011, w.e.f. 30-09-2011.
+31 Inserted by G.S.R. 427(E), dated 05-06-2012, w.e.f. 01-01-2013.
+32 Inserted by G.S.R. 137, dated 16-06-2014, w.e.f. 01-07-2014.
+33 Inserted by G.S.R. 385(E), dated 14-05-2015, w.e.f. 14-05-2015.
+34 Inserted by G.S.R. 629(E), dated 23-06-2017, w.e.f. 01-01-2018.
+                    packed, shall be displayed on the digital and electronic network used for e-commerce
+                    transactions:
+
+                    Provided that in case of market place model of e-commerce, responsibility of the
+                    correctness of declarations shall lie with the manufacturer or seller or dealer or
+                    importer if,—
+
+                              (a)       the function of the e-commerce entity is limited to providing access
+                                        to a communication system over which information made available by
+                                        the manufacturer or seller or dealer or importer is transmitted or
+                                        temporarily stored or hosted; or
+
+                              (b)       the entity does not—
+
+                                        (i)       initiate the transmission;
+
+                                        (ii)      select the receiver of the transmission; and
+
+                                        (iii)     select or modify the information contained in the
+                                                  transmission;
+
+                              (c)       the entity observes due diligence while discharging its duty as an
+                                        intermediary under the Information Technology Act, 2000 and also
+                                        observes such other guidelines as the Central Government may
+                                        prescribe in this behalf:
+
+                    Provided further that there shall not be any protection to the market place e-
+                    commerce entity if,—
+
+                              (a)       the entity has conspired or abetted or aided or induced, whether by
+                                        threats or promise of otherwise in the commission of the unlawful act;
+
+                              (b)       upon receiving actual knowledge, or on being notified by the
+                                        appropriate Government or its agency that any information, data or
+                                        communication link residing in or connected to a computer resource
+                                        controlled by the entity is being used to commit the unlawful act, the
+                                        entity fails to expeditiously remove or disable access to that material
+                                        on that resource without vitiating the evidence in any manner.
+              35
+               [(10-A) Every e-commerce entity selling imported products shall provide the product
+                       listings of such imported products in a searchable and sortable filter specifying the
+                       country of origin.]
+         36
+           [(11) The unit sale price in rupees, rounded off to the nearest two decimal place, shall be
+                 declared on every pre-packaged commodities in the following manner, namely:—
+
+
+35 Inserted by the Legal Metrology (Packaged Commodities) (Amendment) Rules, 2026, w.e.f. 01-07-2026.
+36 Substituted by G.S.R. 226(E), dated 28-03-2022, w.e.f. 01-01-2024. Prior to substitution, it read as:
+
+“(11) The unit sale price shall be declared as—
+    (i) “Rs --- per g” for pre-packaged commodities with net quantity of commodity less than one kilogram;
+    (ii) “Rs --- per kg” for pre-packaged commodities with net quantity of commodity more or equal to one kilogram;
+    (iii) “Rs --- per cm” for pre-packaged commodities with net length of the commodity less than one meter;
+    (iv) “Rs --- per meter” for pre-packaged commodities with net length of the commodity more or equal to one meter;
+                   (i)       per gram where net quantity is less than one kilogram and per kilogram where
+27.   Registration of manufacturers, packers and importers.—
+
+      (1)    Every individual, firm, Hindu Undivided Family, society, company or corporation who
+             or which pre-packs or imports any commodity for sale, distribution or delivery shall
+             make an application, accompanied by a fee of Rupees Five hundred, to the Director or
+             the Controller for the registration of his or its name and complete address; and every
+             such application shall be made,—
+
+             (i)     in the case of an applicant pre-packing or importing any commodity on the
+                     date of commencement of these rules, within a period of ninety days from
+                     such commencement; or
+
+             (ii)    in the case of any applicant who or which commences pre-packing or
+                     importing of any commodity after the commencement of these rules, within
+                     ninety days from the date on which he or it commences such pre-packing.
+
+      (2)    Every application referred in sub-rule (1) shall contain the following particulars,
+             namely—
+
+             (a)     the name of the applicant;
+
+             (b)     the complete address of the premises at which the pre-packing or import of
+                     one or more commodities is made by the applicant; and
+
+             (c)     the name of the commodity or commodities pre-packed or imported by the
+                     applicant.
+
+             Explanation.—In this sub-rule, ‘complete address’ has the meaning assigned to it in
+             the explanation to sub-rule (1) of Rule 10.'.
+
+      (3)    For making any alteration in the registration certificate issued under sub-rule (1), a fee
+             of Rupees One hundred shall be paid by the concerned manufacturer or packer or
+             importer to the Director or Controller.
+
+      (4)    On receipt of the application made under sub-rule (1), the Director or Controller, who
+             shall be the Registering Authority, shall—
+
+             (a)     if the application is not complete in all respects, return the same to the
+                     applicant within a period of seven working days from the date of receipt of
+                     the application;
+
