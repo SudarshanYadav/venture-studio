@@ -69,3 +69,13 @@ Keep it short:
 5. **Needs founder OK**: any outward-facing action or spend that is ready but not taken.
 6. **Pushback raised**: material challenges to the brief or plan, with your recommendation.
 7. **What I'd do differently / what we're missing**: gaps, wrong assumptions, ignored opportunities, ranked by impact.
+
+## Lessons from the founder
+Apply these on every job. Newest last. Format: date: lesson (why).
+- 2026-11-26: Research before build. No landing page, brand, ads or spend before the venture's market research passes (Mrudu was built before an hour-long datasheet check showed the product could not work).
+- 2026-11-26: India only (UAE dropped).
+- 2026-11-26: Watch tokens: cheap desk work first, go deeper only where a decision depends on it.
+- 2026-11-26: One report per venture, `ventures/<venture>/research/REPORT.md`, in the playbook template; do not create parallel reports.
+- 2026-11-26: Always cover current players, price points, customer problems/feedback (verbatim quotes with URLs) and marketing channels (observed vs inferred).
+- 2026-11-26: Read the actual pages; mark anything seen only in a search snippet as S and lower its confidence.
+- 2026-11-27: Give a link to every competitor product in the players table, and check each one opens.

@@ -10,7 +10,7 @@ Owner: Market Researcher (`.claude/agents/market-researcher.md`). Inputs: Financ
 
 ### 1a. Four mandatory sections (every screen and every deep dive)
 The founder reviewed the first Mrudu research and said it did not clearly answer four questions. Each report must now answer them under these exact headings, each with sourced numbers:
-1. **Current players**: at least 15 named players where the category has that many (D2C, big brands, marketplace white-labels, B2B), by sub-category, with mechanism (what it actually does vs what it claims), where sold, marketplace rating counts.
+1. **Current players**: at least 15 named players where the category has that many (D2C, big brands, marketplace white-labels, B2B), by sub-category, with mechanism (what it actually does vs what it claims), where sold, marketplace rating counts, and one checked **Link** per product (brand page, otherwise marketplace listing).
 2. **Price points**: MRP and selling price (tax-incl.), consumable or refill cost, 12-month cost to the buyer, and a price ladder across sub-categories showing where the gaps are.
 3. **Customer problems and feedback**: verbatim quotes with URLs (screen: at least 15; deep dive: at least 40), grouped into themes with counts. Keep apart (a) the problem buyers are trying to solve and (b) complaints about current products, plus unmet needs and price objections. Say which sources were blocked.
 4. **Marketing channels**: per player, from evidence, tagged **observed** or **inferred**: Meta Ad Library (active ads and hooks, India), Instagram/YouTube presence and counts, creator collaborations, Google search ads, SEO/blog content, marketplaces, offline/dealer, offers and discounts. Then a channel map and the white space. If the Ad Library or a platform cannot be read, say so and do not describe ads that were not seen.
@@ -60,7 +60,7 @@ One table: number, value (range), source, confidence.
 ## 3. The problem and the market
 Market definition (one sentence, out of scope). The problem in measurable terms (e.g. hardness data). Target areas or segments by evidence. TAM / SAM / SOM table, two or more methods compared (more than 3x apart: explain), arithmetic shown, swing factor, attractiveness score /50.
 ## 4. Current players
-ONE table, at least 15 named players where the category has that many: player, category (brand / marketplace private label / local / B2B), mechanism (does it do what it claims?), price (tax-incl.), 12-month cost, where sold, marketplace rating count, claim and proof offered. Status quo and substitutes. Whitespace, strengths we cannot match, copy threat, defensibility.
+ONE table, at least 15 named players where the category has that many: player, category (brand / marketplace private label / local / B2B), mechanism (does it do what it claims?), price (tax-incl.), 12-month cost, where sold, marketplace rating count, claim and proof offered, **Link** (one checked link per product: the brand page, otherwise the marketplace listing; open it and record the date checked). Status quo and substitutes. Whitespace, strengths we cannot match, copy threat, defensibility.
 ## 5. Price points
 Price ladder across sub-categories (tax-incl., MRP and selling price, per unit and per use), consumable or refill cost, 12-month running cost with assumptions, discount depth, gaps, willingness-to-pay evidence.
 ## 6. Customer problems and feedback

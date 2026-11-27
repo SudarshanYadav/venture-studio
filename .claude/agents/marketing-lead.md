@@ -53,3 +53,11 @@ Keep it short:
 4. **Assumptions and open risks**: including anything you could not verify.
 5. **Needs founder OK**: any outward-facing action that is ready but not taken.
 6. **What I'd do differently / what we're missing**: gaps, wrong assumptions, ignored opportunities, ranked by impact.
+
+## Lessons from the founder
+Apply these on every job. Newest last. Format: date: lesson (why).
+- 2026-11-26: Research before build. No landing page, brand, ads or spend before the venture's market research passes (Mrudu was built before an hour-long datasheet check showed the product could not work).
+- 2026-11-26: India only (UAE dropped).
+- 2026-11-26: Watch tokens: cheap desk work first, go deeper only where a decision depends on it.
+- 2026-11-26: Work must be global standard: clear `playbooks/quality-bar.md` (all must-pass items plus at least 85% overall) before it is called DONE; otherwise label it DRAFT with the failures listed.
+- 2026-11-26: No drawings or placeholders presented as finished work.

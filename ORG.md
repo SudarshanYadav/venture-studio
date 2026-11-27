@@ -1,6 +1,6 @@
 # ORG: venture-studio org chart and status
 
-Last updated: 2026-11-26 by chief-of-staff (India-only focus, UAE dropped; Mrudu Stage 1 screen DONE with NO-GO on the shower-cartridge form, pending founder confirmation; India landscape research in progress; Notion dropped, tracking moved to ORG.md; model allocation and market-research gate adopted; global quality bar adopted).
+Last updated: 2026-11-27 by chief-of-staff (feedback-loop rule adopted: lessons sections in every agent file and CLAUDE.md §13; India-only focus, UAE dropped; Mrudu Stage 1 screen DONE with NO-GO on the shower-cartridge form, pending founder confirmation; India landscape research in progress; Notion dropped, tracking moved to ORG.md; model allocation and market-research gate adopted; global quality bar adopted).
 
 **Rule: two-way street.** Every specialist challenges the brief and flags what the studio is missing; every report ends with "What I'd do differently / what we're missing"; the CEO passes material pushback to the founder with its own view alongside. See `CLAUDE.md` §5 and [decision](decisions/2026-11-25-two-way-street.md).
 
@@ -47,6 +47,7 @@ Founder (board: approves money, launches, publishing, contacts, GitHub pushes)
 | Market Researcher | Mrudu Stage 1 market screen (India + UAE) + candidate segments | **DONE (reviewed by CEO)**. Result: **NO-GO on the shower-cartridge form**: resin capacity of about 12–166 L at Bengaluru hardness, flow 26–150× over the resin's rating, and competitors only "condition". | `ventures/mrudu-shower-softener/research/` (`archive/market-research.md`, `archive/competitors.md`, `customer-voice.md`, `bench-test-spec.md`, `sources.md`; first two superseded by REPORT.md) |
 | Market Researcher | India hard-water landscape: players, prices, customer problems, channels | **DONE (reviewed by CEO)** | `ventures/mrudu-shower-softener/research/REPORT.md` (superseded drafts in `archive/`) |
 | Market Researcher | Consolidated Mrudu research into one REPORT.md; single-report template made standard | **DONE (reviewed by CEO)** | `ventures/mrudu-shower-softener/research/REPORT.md` |
+| Chief of Staff | Feedback loop: lessons sections in every agent + CLAUDE.md §13 | **DONE** (founder approved 2026-11-27) | `CLAUDE.md` §3 and §13, `.claude/agents/*.md` ("Lessons from the founder"), `playbooks/market-research.md` (Link column). [Decision](decisions/2026-11-27-feedback-loop.md) |
 
 **Quality bar (2026-11-26):** Founder feedback on 2026-11-26 was that the work was college-project quality and that "Mrudu" had no research behind it. The new bar is global standard: brand, website and ad work is DONE only when every must-pass item in [playbooks/quality-bar.md](playbooks/quality-bar.md) passes and at least 85% of all items pass ([decision](decisions/2026-11-26-global-quality-bar.md), [audit](ventures/mrudu-shower-softener/marketing/quality-audit.md)). Notion dropped by founder 2026-11-26; all tasks and projects are tracked here in ORG.md.
 

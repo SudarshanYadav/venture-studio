@@ -34,6 +34,19 @@ Agents start with no memory of this conversation. Every brief includes:
 - **Verification**: how the agent proves it works (script checks, Playwright screenshots, recomputed numbers, compliance checklist).
 - **Report format**: short summary, file paths, assumptions, open risks, anything unverified, and it ends with **"What I'd do differently / what we're missing"**: gaps, wrong assumptions, ignored opportunities, ranked by impact.
 - **Guardrails**: legal rules below; no outward-facing actions.
+- Agents follow the "Lessons from the founder" section in their own agent file.
+
+## 13. Feedback loop (agents learn from founder feedback)
+
+- Agents have no memory between jobs. They learn only from the files they read.
+- After any founder feedback, the CEO sorts it:
+  - (a) **agent-specific**: goes in that agent's "Lessons from the founder" section in `.claude/agents/<agent>.md`;
+  - (b) **method**: goes in the relevant `playbooks/*.md`;
+  - (c) **studio-wide**: goes in `CLAUDE.md` or `founder-preferences.md`;
+  - (d) **one-off**: not saved.
+- The Chief of Staff writes it in, dated, with a one-line reason, and notes it in `ORG.md`.
+- The CEO reviews every deliverable against that agent's lessons, and sends it back if one is missed.
+- At most about 15 lessons per agent. Monthly, the Chief of Staff merges duplicates and moves stable lessons into the playbooks.
 
 ## 4. Talking to the founder
 
