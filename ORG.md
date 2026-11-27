@@ -48,6 +48,9 @@ Founder (board: approves money, launches, publishing, contacts, GitHub pushes)
 | Market Researcher | India hard-water landscape: players, prices, customer problems, channels | **DONE (reviewed by CEO)** | `ventures/mrudu-shower-softener/research/REPORT.md` (superseded drafts in `archive/`) |
 | Market Researcher | Consolidated Mrudu research into one REPORT.md; single-report template made standard | **DONE (reviewed by CEO)** | `ventures/mrudu-shower-softener/research/REPORT.md` |
 | Chief of Staff | Feedback loop: lessons sections in every agent + CLAUDE.md §13 | **DONE** (founder approved 2026-11-27) | `CLAUDE.md` §3 and §13, `.claude/agents/*.md` ("Lessons from the founder"), `playbooks/market-research.md` (Link column). [Decision](decisions/2026-11-27-feedback-loop.md) |
+| Market Researcher | WaterScience CLEO tap deep dive, cost to make, demand by city | **IN PROGRESS** | `ventures/mrudu-shower-softener/research/REPORT.md` §16 (not yet written) |
+
+**Feedback loop (2026-11-27):** the scope-check lesson (never inherit geography or segment from the brief) was added to `.claude/agents/market-researcher.md` ("Lessons from the founder") and to `playbooks/market-research.md` Stage 1 (item 1a).
 
 **Quality bar (2026-11-26):** Founder feedback on 2026-11-26 was that the work was college-project quality and that "Mrudu" had no research behind it. The new bar is global standard: brand, website and ad work is DONE only when every must-pass item in [playbooks/quality-bar.md](playbooks/quality-bar.md) passes and at least 85% of all items pass ([decision](decisions/2026-11-26-global-quality-bar.md), [audit](ventures/mrudu-shower-softener/marketing/quality-audit.md)). Notion dropped by founder 2026-11-26; all tasks and projects are tracked here in ORG.md.
 

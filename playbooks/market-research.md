@@ -27,6 +27,7 @@ The founder reviewed the first Mrudu research and said it did not clearly answer
 
 ### Stage 1 screen: contents (all on 2 pages)
 1. Market definition in one sentence (country, buyer, use case, price band, what is out of scope).
+1a. Scope check: justify the chosen city/region and segment with demand evidence; do not take it from the brief.
 2. Rough SOM range for India from **one** method, labelled Low confidence.
 3. **Current players, price points, customer problems, marketing channels** (section 1a): at screen depth, the top 5 to 8 players with shelf price and pack, a price ladder, at least 15 verbatim quotes grouped by theme, and a one-line channel read per player (observed or inferred). Status quo alternative.
 4. One-line regulatory flag: blocked / needs licence (time, cost) / free to sell.

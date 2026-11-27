@@ -79,3 +79,4 @@ Apply these on every job. Newest last. Format: date: lesson (why).
 - 2026-11-26: Always cover current players, price points, customer problems/feedback (verbatim quotes with URLs) and marketing channels (observed vs inferred).
 - 2026-11-26: Read the actual pages; mark anything seen only in a search snippet as S and lower its confidence.
 - 2026-11-27: Give a link to every competitor product in the players table, and check each one opens.
+- 2026-11-27: Never inherit geography or segment from a venture brief. Test it with demand evidence (reviewer cities, hardness/problem data by city, search interest) and state why the scope was chosen (Mrudu research assumed Bangalore from the brief without checking where demand is).
