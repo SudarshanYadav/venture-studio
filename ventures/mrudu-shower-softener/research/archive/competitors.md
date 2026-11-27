@@ -1,3 +1,4 @@
+> Superseded by [REPORT.md](../REPORT.md) (2026-11-26). Do not use for decisions.
 # Mrudu: competitor teardown (India first, UAE summary)
 Date: 2026-11-26 | Researcher: Market Researcher | Skill: competitor-profiling (WebFetch alternative stack; curl used because WebFetch could not resolve hosts in this session). **SEO metrics: unavailable** (no Ahrefs/Semrush/DataForSEO; not estimated). **Ad activity: not checked** (Meta Ad Library needs a login session; not attempted).
 Prices are as shown on the page on 2026-11-26, in INR; Indian shelf prices are MRP-rule prices and therefore **tax-inclusive** (Legal Metrology Rule 2(m), opened). Raw data: `research/raw/waterscience/`, `research/raw/flipkart/`, `research/raw/uae/` (2026-11-26).

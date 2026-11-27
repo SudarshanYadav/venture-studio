@@ -1,3 +1,4 @@
+> Superseded by [REPORT.md](../REPORT.md) (2026-11-26). Do not use for decisions.
 # India hard-water landscape: players, prices, customer problems, channels
 Date: 2026-11-26 | Researcher: Market Researcher | Scope: India only (UAE dropped by founder) | Currency: INR, tax-inclusive shelf prices as displayed (Legal Metrology Rule 2(m); see `sources.md`)
 Method: competitor-profiling and customer-research skills, WebFetch alternative stack (curl through the session proxy, pages converted to text; WebFetch itself cannot resolve hosts in this session). **SEO metrics: unavailable. Meta Ad Library: could not be read (see section 3).** Raw files: `research/raw/landscape/2026-11-26/`. Calculations: `research/calc/landscape_calc.py` and `landscape_theme_counts.py` (outputs saved beside them).

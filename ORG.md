@@ -44,8 +44,9 @@ Founder (board: approves money, launches, publishing, contacts, GitHub pushes)
 | Chief of Staff | Migration package for the founder's personal account | **DONE**: transferred and pushed to private GitHub repo SudarshanYadav/venture-studio on 2026-11-26 | `export/venture-studio-2026-11-26.zip`, [MIGRATION.md](MIGRATION.md), [founder-preferences.md](founder-preferences.md). [Decision](decisions/2026-11-26-migrate-to-personal-account.md) |
 | Recruiter | Market-research agent + playbook | **DONE (reviewed by CEO)** | `playbooks/market-research.md`, `.claude/agents/market-researcher.md`, skills `competitor-profiling` and `market-sizing`. |
 | Chief of Staff | Model allocation + new rules | **DONE** | `.claude/agents/*.md` (model lines), [CLAUDE.md](CLAUDE.md) §9 and §12. [Decision](decisions/2026-11-26-market-research-and-model-budget.md) |
-| Market Researcher | Mrudu Stage 1 market screen (India + UAE) + candidate segments | **DONE (reviewed by CEO)**. Result: **NO-GO on the shower-cartridge form**: resin capacity of about 12–166 L at Bengaluru hardness, flow 26–150× over the resin's rating, and competitors only "condition". | `ventures/mrudu-shower-softener/research/` (`market-research.md`, `competitors.md`, `customer-voice.md`, `bench-test-spec.md`, `sources.md`) |
-| Market Researcher | India hard-water landscape: players, prices, customer problems, channels | **IN PROGRESS** | `ventures/mrudu-shower-softener/research/india-landscape.md` |
+| Market Researcher | Mrudu Stage 1 market screen (India + UAE) + candidate segments | **DONE (reviewed by CEO)**. Result: **NO-GO on the shower-cartridge form**: resin capacity of about 12–166 L at Bengaluru hardness, flow 26–150× over the resin's rating, and competitors only "condition". | `ventures/mrudu-shower-softener/research/` (`archive/market-research.md`, `archive/competitors.md`, `customer-voice.md`, `bench-test-spec.md`, `sources.md`; first two superseded by REPORT.md) |
+| Market Researcher | India hard-water landscape: players, prices, customer problems, channels | **DONE (reviewed by CEO)** | `ventures/mrudu-shower-softener/research/REPORT.md` (superseded drafts in `archive/`) |
+| Market Researcher | Consolidated Mrudu research into one REPORT.md; single-report template made standard | **DONE (reviewed by CEO)** | `ventures/mrudu-shower-softener/research/REPORT.md` |
 
 **Quality bar (2026-11-26):** Founder feedback on 2026-11-26 was that the work was college-project quality and that "Mrudu" had no research behind it. The new bar is global standard: brand, website and ad work is DONE only when every must-pass item in [playbooks/quality-bar.md](playbooks/quality-bar.md) passes and at least 85% of all items pass ([decision](decisions/2026-11-26-global-quality-bar.md), [audit](ventures/mrudu-shower-softener/marketing/quality-audit.md)). Notion dropped by founder 2026-11-26; all tasks and projects are tracked here in ORG.md.
 
@@ -58,7 +59,7 @@ Founder (board: approves money, launches, publishing, contacts, GitHub pushes)
 ## Next steps (awaiting founder direction)
 
 1. **Founder OK on proposed agent-file changes** to enforce `playbooks/quality-bar.md` (pending).
-2. **Founder to confirm the Mrudu kill.** The shower-cartridge form is NO-GO ([market research](ventures/mrudu-shower-softener/research/market-research.md)). Founder accepts NO-GO, or runs the optional loose-resin column check (about ₹1–1.5k, [bench spec](ventures/mrudu-shower-softener/research/bench-test-spec.md)). The ₹3–5k sample purchase is no longer the next spend.
+2. **Founder to confirm the Mrudu kill.** The shower-cartridge form is NO-GO ([market research](ventures/mrudu-shower-softener/research/REPORT.md)). Founder accepts NO-GO, or runs the optional loose-resin column check (about ₹1–1.5k, [bench spec](ventures/mrudu-shower-softener/research/bench-test-spec.md)). The ₹3–5k sample purchase is no longer the next spend.
 3. **Customer research missing**: no `ventures/mrudu-shower-softener/marketing/research.md`; no hook traces to a real customer quote. Name research for "Mrudu" also missing.
 4. **Decide whether to screen a bathroom-softener pivot** (Stage 1 screen for Bengaluru owner-occupied borewell homes; cost ₹0, about 1 hour). CEO decision.
 5. Developer applies the brand hand-off once the capacity blocker clears and the brand passes the bar.
@@ -67,3 +68,4 @@ Founder (board: approves money, launches, publishing, contacts, GitHub pushes)
 8. **Decide market research for Lavan** (India only, per [India-only decision](decisions/2026-11-26-india-only.md)). Mrudu gets market research (decided by founder 2026-11-26). Founder decision needed ([decision](decisions/2026-11-26-drop-notion-persona-after-research.md)).
 9. Target persona: decide after the Mrudu market screen, using its segment ranking.
 10. Founder to confirm the side-income target (provisional ₹50k/month net by month 12) that drives the kill criteria.
+11. Founder decision on the pivots in REPORT.md §11 (salt/service subscription screen first, recommended).

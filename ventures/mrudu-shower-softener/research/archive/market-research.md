@@ -1,3 +1,4 @@
+> Superseded by [REPORT.md](../REPORT.md) (2026-11-26). Do not use for decisions.
 # Mrudu (resin shower softener): market research, India and UAE
 Date: 2026-11-26 | Researcher: Market Researcher (opus, CEO exception for a foundational go/no-go) | Stage: **deep dive (Stage 2)**, replacing the snippet-only screen of the same date | Currency: INR and AED; ₹85/USD (studio), AED 3.6725/USD peg, so ₹23.14 per AED (2026-11-26). Indian shelf prices are tax-inclusive (MRP rule); Amazon.ae prices as listed (VAT-inclusive assumed).
 Companion files: `competitors.md`, `customer-voice.md`, `bench-test-spec.md`, `sources.md`, `calc/stage2_calc.py` (+ `_output.txt`), `research/countries/india.md`, `research/countries/uae.md`.

@@ -19,7 +19,7 @@ Updated: 2026-11-26 by Market Researcher (Stage 2 for Mrudu; pages opened with c
 | Hyderabad hardness | 44 groundwater samples (2023): hardness above permissible limit in 75% pre-monsoon, 84% post-monsoon; TDS above 500 mg/L in 86 to 95% | https://www.thenewsminute.com/telangana/hyderabads-groundwater-risky-for-kids-shows-high-nitrate-and-fluoride-levels-study | 2026-09-14 | O | Medium-Low (one study, 44 samples) |
 | Pune hardness | Pimpri-Chinchwad MIDC groundwater 220 to 360 mg/L, all within 600 | https://mpcb.gov.in/sites/default/files/focus-area-reports-documents/Report_Groundwater_PIMPRICHINCHWAD.pdf | 2014 | O | Low (one area) |
 | Chennai hardness | Perungudi 610 to 675 mg/L (waste-site study, 2011); coastal mean 285.7 mg/L; CMWSSB limits 200 / 600 | search results | 2011 | S | Low |
-| Hard-water filter prices (Flipkart, tax-incl.) | Generics ₹400 to 950; Snix ₹943; Purifit ₹999 to 1,899; RiverSoft ₹1,440 to 2,049; CLEO ₹1,390 to 2,795; cartridges ₹684 to 849. Liquid "instant softener" ₹209 to 575 | `ventures/mrudu-shower-softener/research/competitors.md` | 2026-11-26 | O | Medium-High |
+| Hard-water filter prices (Flipkart, tax-incl.) | Generics ₹400 to 950; Snix ₹943; Purifit ₹999 to 1,899; RiverSoft ₹1,440 to 2,049; CLEO ₹1,390 to 2,795; cartridges ₹684 to 849. Liquid "instant softener" ₹209 to 575 | `ventures/mrudu-shower-softener/research/REPORT.md` | 2026-11-26 | O | Medium-High |
 | Marketplaces | Flipkart opens to automated reads; Amazon.in serves a bot check (use a browser) | | 2026-11-26 | | |
 | Payments, logistics | Not researched. Studio rule: prepaid only | | | | Unknown |
 

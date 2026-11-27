@@ -13,7 +13,7 @@
 - A persona chosen before research would reproduce the same unsupported assumption that the quality bar flagged.
 
 **Numbers:**
-- Mrudu Stage 1 market screen: IN PROGRESS, output `ventures/mrudu-shower-softener/research/market-research.md`.
+- Mrudu Stage 1 market screen: IN PROGRESS, output `ventures/mrudu-shower-softener/research/REPORT.md`.
 - Side-income target, provisional: ₹50k/month net by month 12. Not yet confirmed by the founder. It drives the kill criteria.
 
 **Status:** Adopted. Recorded in [ORG.md](../ORG.md) (assignments and next steps) and [ventures/README.md](../ventures/README.md). Local edits only; not committed or pushed.

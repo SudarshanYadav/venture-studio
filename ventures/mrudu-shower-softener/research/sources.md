@@ -151,3 +151,12 @@ Status: **O** opened and read, **S** search snippet only, **B** blocked or could
 | https://indianstartupnews.com/funding/d2c-brand-waterscience-raises-rs-14-crore-in-funding-from-peter-thiel-backed-velocity-9780760 (3 Sep 2025) | WaterScience: 70% YoY growth, Amazon, Flipkart, Shopify, more than 1,000 offline retailers; page says Rs 1.4 crore raise (URL says 14) | O |
 | https://india.entrepreneur.com/en-in/finance/waterscience-raises-funding-from-velocity/374714 (16 Jun 2021) | "internet-first brand with impressive returns on digital marketing"; target Rs 35 crore revenue that year (company statement) | O |
 | LinkedIn WaterScience 18,290 followers; 1mg and DesiDime WaterScience listings | | S |
+
+## Product links added to REPORT.md section 4 (2026-11-27)
+| URL | What it gave | Status |
+|---|---|---|
+| https://www.waterscience.in/products.json?limit=250, https://theriversoft.com/products.json?limit=250, https://purifit.in/products.json?limit=250, https://scale-o.com/products.json | Product handles used to build brand product-page URLs (WaterScience, RiverSoft, Purifit, Scale-O) | O; each product page HTTP 200 on 2026-11-27 |
+| https://www.flipkart.com/wevora-20-stage-shower-filter-hard-water-hair-skin-protection-universal-fit-tap-mount/p/itm65d80d9105cb3 | Wevora listing (found by web search; search snippet only, not a pixel-identical match to the screened title) | S; HTTP 200 |
+| Flipkart /p/ product URLs (derived from the /product-reviews/ URLs already in customer-voice.md) | Product pages for WaterScience CLEO, RiverSoft, Purifit, Snix, Avimee, D'Cal, Scale-O | HTTP 200 on 2026-11-27 (Flipkart may return 200 for unavailable items; not verified by reading) |
+| https://www.eurekaforbes.com/dp/GWPDWSC5H00000/aquaguard-aws-c-500-water-softener, https://www.kent.co.in/products/..., https://www.zerobonline.com/product/..., https://www.bajajfinserv.in/alkara-water-softener | Product pages (already in earlier sources) | HTTP 200 on 2026-11-27 |
+| https://www.amazon.in/s?k=bathroom+water+softener | Not used in table | HTTP 503; may need a browser |

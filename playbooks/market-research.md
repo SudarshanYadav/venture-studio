@@ -21,7 +21,7 @@ The founder reviewed the first Mrudu research and said it did not clearly answer
 |---|---|---|
 | Purpose | Kill bad ideas cheaply, pick country, list what Stage 2 must prove | Produce the go / no-go the founder can sign |
 | Effort | About 1 hour of agent work. About 15 searches (standard mode), at most about 15 page fetches (the four mandatory sections need review and listing pages), 2 pages out plus an appendix of quotes | Up to about 4 hours. Extended search only for a question a decision depends on |
-| Output | `ventures/<venture>/research/screen.md` | `ventures/<venture>/research/market-research.md` (template, section 4) |
+| Output | `ventures/<venture>/research/screen.md` | `ventures/<venture>/research/REPORT.md` (template, section 4) |
 | Runs when | Always | Only if the screen passes **and** the CEO confirms (founder OK if it needs paid data) |
 | Ends with | PASS / KILL / PARK, country lean, 3 open questions | GO / GO-NARROW / NO-GO, country first, launch plan |
 
@@ -45,65 +45,46 @@ Fill the full template. Answer only what the Stage 1 open questions and the kill
 - Never fill an unknown with an invented number. Mark "page blocked" or "snippet only" where true.
 - Prefer, in order: first-party data, observed market behaviour (prices, listings, review counts, ads), search and demand proxies, government or platform data, third-party reports, expert opinion; treat uncited market-size claims and AI summaries as weak.
 
-## 4. Report template: `ventures/<venture>/research/market-research.md`
+## 4. Report template: one file, `ventures/<venture>/research/REPORT.md`
+
+Every venture's research is **one report** the founder can read end to end, with exactly these 15 sections in this order (the Mrudu report is the worked example). Standard companion files, and only these: `customer-voice.md` (all verbatim quotes with URLs, segment tags, theme counts) and `sources.md` (ledger). Also allowed: `calc/` (scripts and outputs), `raw/<slug>/<YYYY-MM-DD>/` (captures, reviews with names removed), `bench-test-spec.md` if a physical test is proposed, and `archive/` (superseded drafts, each headed "Superseded by REPORT.md (date)"). Update REPORT.md in place; do not create a second report. Stage 1 still produces `screen.md` (2 pages) and may fold into REPORT.md when a deep dive is approved. Keep it tight: no repeated content between sections; link, do not copy.
 
 ```markdown
-# <Venture>: market research (India)
-Date: | Researcher: | Stage: screen / deep dive | Currency: INR
+# <Venture>: market research report (India)
+Date | Researcher | Stage | Currency and rate | Evidence tags (O observed / S snippet / I inferred) and confidence (H/M/L/Unknown)
 
-## 0. Verdict (write last, put first)
-GO / GO-NARROW / NO-GO. Confidence: H/M/L.
-SOM (12-month, India): <range>. Deciding number: <x>. The one assumption that would change this: <y>, test: <z>.
-Kill-criteria scorecard result: <n of m pass; must-pass failures: ...>
+## 1. Verdict and the decisions the founder needs to make
+GO / GO-NARROW / NO-GO / PARK, confidence. Deciding number. The one assumption that would change it, and the cheapest test. Decision table: decision, options, cost, recommendation.
+## 2. Key numbers
+One table: number, value (range), source, confidence.
+## 3. The problem and the market
+Market definition (one sentence, out of scope). The problem in measurable terms (e.g. hardness data). Target areas or segments by evidence. TAM / SAM / SOM table, two or more methods compared (more than 3x apart: explain), arithmetic shown, swing factor, attractiveness score /50.
+## 4. Current players
+ONE table, at least 15 named players where the category has that many: player, category (brand / marketplace private label / local / B2B), mechanism (does it do what it claims?), price (tax-incl.), 12-month cost, where sold, marketplace rating count, claim and proof offered. Status quo and substitutes. Whitespace, strengths we cannot match, copy threat, defensibility.
+## 5. Price points
+Price ladder across sub-categories (tax-incl., MRP and selling price, per unit and per use), consumable or refill cost, 12-month running cost with assumptions, discount depth, gaps, willingness-to-pay evidence.
+## 6. Customer problems and feedback
+Sample size and blocked sources. Themes with counts: (a) the problem being solved, (b) complaints about current products, (c) unmet needs and price objections. The best 10 quotes with source keys (full set and URLs in `customer-voice.md`; at least 15 at screen, 40 at deep dive).
+## 7. Marketing channels
+What could not be observed. Channel map per player, observed vs inferred (Meta Ad Library, Instagram/YouTube counts, creators, Google ads, SEO/blog, marketplaces, offline, offers). Hooks. CPM / CPC / CVR / implied CPO vs max CAC. White space.
+## 8. Product feasibility
+Does the product do what it would claim? Physics, performance or supplier evidence, cheapest honest test. Omit detail that cannot change the verdict.
+## 9. Regulatory
+Licences, labels, certifications as relevant (FSSAI, BIS, CDSCO, Legal Metrology, GST, CCPA/ASCI, E-Commerce Rules, DPDP): item, finding, source and date, blocker yes/no. Claim risks. Trademark status. "Verify with a professional before launch."
+## 10. Segments and persona
+Segments ranked by evidence, the recommended persona, and who cannot be served.
+## 11. Opportunities
+Pivots and adjacent ideas, each with evidence and status (GO / PARK / idea only) and what would move it.
+## 12. Launch plan and growth potential, if the venture continues
+First 90 days (offer, claims we can substantiate, test design feeding `playbooks/smoke-test.md`, budget, calendar, kill checkpoints day 30/60/90, founder approvals). Repeat rate, extensions, other cities, ceiling of a side-income business, economics fit (max CAC, contribution; hand-off to Finance).
+## 13. Kill-criteria scorecard
+Section 5 of this playbook, PASS / FAIL / UNKNOWN per criterion with number and source (one column per option if several).
+## 14. Unknowns and next tests
+Cheapest first; mark which need founder OK.
+## 15. What we're missing
+Gaps, wrong assumptions, ignored opportunities, ranked by impact.
 
-## 1. Market definition
-One sentence: India (city or region), buyer, use case, price band. Out of scope: ...
-
-## 2. Market potential (TAM / SAM / SOM)
-| | India | Method(s) | Confidence | Source |
-|---|---|---|---|---|
-| TAM (annual, INR) | | | | |
-| SAM | | | | |
-| SOM, 12 months | | | | |
-Arithmetic shown below the table. Methods compared; if >3x apart, why. Biggest swing factor.
-Market attractiveness score (market-sizing skill, /50): India __.
-
-## 3. Customer problems and feedback (mandatory section 1a, item 3)
-Who buys (segments, size). Verbatim quotes with URLs, grouped into themes with counts: (a) the problem buyers are trying to solve, (b) complaints about current products, (c) unmet needs and price objections. Triggers, what they do today, search demand (volume and trend if available), seasonality. List blocked sources.
-
-## 4. Current players (mandatory section 1a, item 1)
-Landscape table by sub-category: player, type (brand / marketplace private label / local / B2B), mechanism (does it do what it claims?), price, pack, price per use, where sold, marketplace rating count, claim and proof offered (published numbers?), review themes. Status quo and substitutes.
-Positioning whitespace. Their strengths we cannot match. Threat of marketplace private label or a big brand copying. Defensibility: low / medium / high and why.
-
-## 5. Price points (mandatory section 1a, item 2)
-Price ladder across sub-categories (tax-incl. MRP and selling price, per unit and per use), consumable or refill cost, 12-month cost to the buyer, discount depth, gaps in the ladder, our implied price and margin structure, willingness-to-pay evidence.
-
-## 6. Marketing channels and acquisition cost (mandatory section 1a, item 4)
-Per player, observed or inferred: Meta Ad Library (active ads, hooks), Instagram and YouTube counts, creator collaborations, Google ads, SEO/blog, marketplaces (Amazon.in, Flipkart, quick commerce), offline and dealers, offers. Channel map and white space. Indicative CPM / CPC / CVR for India with source and confidence. Implied CPO vs max CAC from the finance model. Cheapest honest test.
-
-## 7. Regulatory and compliance snapshot
-Licences, labels, certifications (FSSAI, BIS, CDSCO, Legal Metrology, GST, CCPA/ASCI, E-Commerce Rules, DPDP) as relevant. Time, cost, blocker yes/no, source and date. Claim risks (health, ORS-type reserved terms). Trademark status: not searched / searched. "Verify with a professional before launch."
-
-## 8. India go-to-market fit
-(table in section 6 of the playbook, filled with sourced values)
-
-## 9. Launch plan (first 90 days, one country first)
-Offer and price, claims we can substantiate, test design (feeds playbooks/smoke-test.md), budget (INR and share of the $10k), calendar with payday, supplier/inventory plan and minimum order, licences needed first, milestones, kill checkpoints at day 30 / 60 / 90, what the founder must approve.
-
-## 10. Growth potential
-Repeat and refill rate (assumption or sourced), product line extensions, other Indian cities or regions, marketplace or retail, ceiling of a side-income business: monthly net profit at 12 and 24 months (low / base / high).
-
-## 11. Economics fit
-Max CAC and margin per unit from the finance model (link), contribution per order, inventory cash tied up vs budget, payback. Hand-off to Finance Analyst for the formal calculation.
-
-## 12. Kill-criteria scorecard (playbook section 5), PASS / FAIL / UNKNOWN with number and source
-
-## 13. Recommendation
-GO / GO-NARROW / NO-GO, country first, why, the next step, the cost of that step.
-
-## 14. Unknowns and validation tasks (cheapest first)
-## 15. Source ledger (URL, date, what it gave, full read / snippet only / blocked)
-## 16. Pushback raised / What I'd do differently / what we're missing
+Appendices (links only): customer-voice.md, sources.md, bench-test-spec.md, calc/, raw/, archive/. Add a short reconciliation table when a figure changed between drafts.
 ```
 
 ## 5. Kill criteria (defaults, tied to budget and goal; founder to confirm)
