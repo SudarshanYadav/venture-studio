@@ -57,13 +57,31 @@ Evidence tags: **O** observed (page opened 2026-11-26), **S** search snippet onl
 
 **Target areas (hypothesis, Low-Medium; dated or vendor-commissioned data).** Cauvery Stage V zones with low connection uptake: Mahadevapura incl. Whitefield, Hagadur, Panathur, Gunjur; Bommanahalli incl. HSR and Electronic City; Rajarajeshwari Nagar; Dasarahalli incl. Peenya; Byatarayanapura; Yelahanka. Brita's 2018 high-hardness list: RT Nagar, Yeshwantpur, Peenya, Kammanahalli, Ramamurthy Nagar. Geo-target by locality radius, not pin-code lists, until better data exists.
 
-**Market size (India = Bengaluru)**
+**Demand by city (added 2026-11-27; corrects an inherited assumption)**
+The Bengaluru focus came from `BRIEF.md` ("Bangalore-only for the test: local delivery, local proof, easy offline tests"). It was a logistics choice, **not derived from demand data**, and sections 1 to 15 inherited it. A tap or shower-arm product ships by courier, so the local-delivery reason does not bind. Test of the assumption, using the Flipkart reviews already captured plus 133 CLEO tap review texts captured on 2026-11-27 (91 not seen before) (city is the place Flipkart shows beside each review; `calc/city_demand.py`, output `calc/city_demand_output.txt`):
+| Metro cluster | All captured reviews (n=467 with a city) | CLEO tap listing only (n=165) | Other hard-water listings (n=302) |
+|---|---|---|---|
+| Bengaluru metro (Bengaluru, Bangalore Division, Hoskote) | **13.1%** (95% interval 10.3 to 16.4) | **20.6%** (15.1 to 27.4) | 8.9% (6.2 to 12.7) |
+| Delhi NCR (Delhi, Noida, Greater Noida, Ghaziabad, Faridabad, Gurugram, Sonipat) | 9.2% | 4.2% | 11.9% |
+| Pune (incl. Pimpri Chinchwad) | 4.7% | 6.1% | 4.0% |
+| Chennai metro | 4.1% | 4.2% | 4.0% |
+| Mumbai MMR | 3.6% | 4.8% | 3.0% |
+| Hyderabad metro | 2.8% | 1.2% | 3.6% |
+| Ahmedabad and Gandhinagar | 2.4% | 3.0% | 2.0% |
+| Kolkata metro | 2.1% | 3.0% | 1.7% |
+| Jaipur | 1.7% | 0.6% | 2.3% |
+| **Everywhere else (about 200 towns and districts)** | **56.3%** | 52.1% | 58.6% |
+By state: Karnataka 16.7%, Maharashtra 14.1%, Delhi NCR 9.4%, Tamil Nadu 8.1%, Gujarat 6.6%, West Bengal 6.0%, Telangana 5.1% (all captures). **Read it as where reviewers are, not market share.** The samples are sort-biased (negative-first, most-helpful, recent), not random; reviewers are a small share of buyers; the CLEO listing is WaterScience's own, from a Bengaluru brand with local retail, which inflates Bengaluru (20.6% there against 8.9% on other brands' listings). **Finding:** Bengaluru is the largest single city (about 1 reviewer in 8), but more than half of reviewers are outside the nine biggest metros. Demand looks national and marketplace-led, not Bengaluru-concentrated. Confidence: Medium on the shape, Low on exact shares.
+**Hardness evidence by city (all vendor, dated or snippet; Low).** Eureka Forbes (vendor blog, O): Rajasthan, Gujarat, Haryana, MP and parts of UP groundwater areas "above 600 mg/L"; Punjab, Maharashtra, Karnataka borewell areas 300 to 600; Tamil Nadu and Telangana 150 to 300. RiverSoft (vendor blog, O, no data cited): Bangalore borewell 300 to 500+ ppm, Hyderabad Gachibowli/Kondapur above 300, Pune Hadapsar/PCMC 200 to 450. Jaipur: studies reach 1,350 mg/L (Research Square, S) and flag the Sitapura area (STM Journals 2025, S). Gurugram: two Bandhwari wells at 308 and 776 mg/L, Jan 2024 (HSPCB filing, S). Hyderabad 75 to 84% of 44 samples over the limit (section 12). **No search-interest data:** Google Trends returned HTTP 429 (blocked). Not found: a city-level hardness ranking from CGWB or CPCB.
+**Recommended start cities (1 to 3): Bengaluru, Delhi NCR (Gurugram, Noida, Ghaziabad, Faridabad), Pune.** Why: the three largest reviewer clusters after pooling (13.1%, 9.2%, 4.7%); each has documented borewell or groundwater-dependent hardness; the test can be run as one Meta campaign with city-level ad sets, so CPO by city decides, instead of a Bengaluru-only test that cannot say whether Bengaluru is special. Bengaluru stays as the base for any offline strip or lab test. Watchlist: Hyderabad (borewell tech corridors), Jaipur and Ahmedabad (hardest water on the vendor and study evidence, but only 1.7 to 2.4% of reviewers). Confidence: Low-Medium; the recommendation is a hypothesis for a small test, not a market ranking.
+
+**Market size (Bengaluru basis; the TAM/SAM below were built on that inherited scope)**
 | | Value | Method | Confidence |
 |---|---|---|---|
 | TAM | 0.61 to 1.41M households | Bottom-up: 3.0 to 3.8M households x 45 to 62% groundwater-dependent x 45 to 60% above 200 mg/L | Low-Medium |
 | SAM | 0.36 to 1.13M households | TAM x 60 to 80% (has a shower arm, no softener; assumption) | Low |
 | SAM, owner-occupier (pivot) | 128k to 565k households | SAM x 35 to 50% owners (assumption; Census HL-04 not opened) | Low |
-| Category flow, all India | Top-9 Flipkart listings: 6,879 ratings = about 1.4 to 6.9 lakh lifetime units at 1 to 5% ratings per unit. WaterScience's own "1.5 million customers" claim implies ₹38 to 75 crore a year over 4 to 8 years | Competitor-led | Low |
+| Category flow, all India | Top-9 Flipkart listings: 6,879 ratings = about 1.4 to 6.9 lakh lifetime units at 1 to 5% ratings per unit. WaterScience's own customer claim ("1.5 million" in the earlier capture; "2 million customers" on its tap page on 2026-11-27) implies ₹38 to 75 crore a year over 4 to 8 years | Competitor-led | Low |
 | SOM, 12 months | 330 to 1,330 orders, ₹6.6 to 26.7 lakh | Channel-led: ₹2 to 4 lakh ads / CPO ₹730 to 450 x 1.2 to 1.5 organic | Low |
 
 **Arithmetic** (`calc/stage2_calc_output.txt` §6, §7, §9): SOM low = 2,00,000 / 730 x 1.2 = 329; high = 4,00,000 / 450 x 1.5 = 1,333. **Methods compared:** bottom-up (potential stock) and competitor-led (actual flow) measure different things and agree that the category is real and large against our goal. A penetration cross-check (0.3 to 1% of SAM = 1,100 to 11,300 orders) is 3 to 9x the channel-led SOM; the gap is explained, because our ad budget, not demand, caps SOM. **Swing factors:** whether the product works at all, then CPO. **Attractiveness (/50): 27** (demand 4, budget 4, competitive weakness 3, reach 3, channel 3, urgency 2, proof 1, execution risk 2, speed 3, fit 2) = "validate first"; proof scores 1 because the shower form cannot prove what it would sell.
@@ -313,6 +331,92 @@ Cheapest first; founder OK needed where marked.
 - **Studio process.** The studio built a landing page, brand kit and ad plan before a datasheet check that takes an hour. Research must precede build (the playbook now says so).
 - **Name and trademark** for "Mrudu"; check only if the name survives a pivot.
 
+## 16. Deep dive: WaterScience CLEO tap and cost to make
+Added 2026-11-27. Evidence tags **O / S / I** as above; every figure traces to `sources.md` section N or `calc/`. Prices are tax-inclusive as displayed unless stated; Rs 85/USD. Not a lawyer; verify duty and IP items with a customs broker and a professional.
+
+**16.0 Answers to the founder's two questions**
+1. **Where is demand?** Not concentrated in Bengaluru. Bengaluru metro is the largest single city cluster at 13.1% of 467 captured reviewers (interval 10.3 to 16.4%), 20.6% on WaterScience's own listing, but 56% of reviewers are outside the nine biggest metros. Bengaluru was inherited from the brief and never tested (section 3). Start Bengaluru, Delhi NCR and Pune as city ad sets in one test.
+2. **What would it cost to make one?** A white-label CLEO-class tap filter lands at about **Rs 270 / 540 / 810 (low / base / high)** per unit, plus a bought-in cartridge at Rs 170 / 250 / 320, at MOQs of 100 to 1,000 units. Contribution per order **before ads** at Rs 1,495 is **Rs 870 / 510 / 90**; at Rs 1,999 it is **Rs 1,290 / 930 / 510**. The deciding number is the base case: at Rs 1,495 break-even cost per order is about Rs 509, below the central Meta estimate of Rs 800 (section 7). At Rs 1,999 it is about Rs 926. First order of 500 units plus 500 cartridges is about Rs 4.6 lakh before ads.
+**Verdict on copying CLEO: NO-GO as a like-for-like copy; PARK a differentiated version** (section 16.4) until three cheap facts are in. A copy inherits the claim limits (CLAUDE.md section 7; ASCI Chapter I) and competes on price against Rs 448 to 1,199 white-labels and a Rs 1,495 incumbent.
+
+**16.1 A. Demand by city**
+See the table and caveats in section 3. Summary: Bengaluru metro 13.1%, Delhi NCR 9.2%, Pune 4.7%, Chennai 4.1%, Mumbai MMR 3.6%, Hyderabad 2.8%, rest 56.3%. Sample sizes: 467 reviews with a city (471 unique after de-duplicating the 379 earlier reviews and the 133 new CLEO tap texts), 165 of them on the CLEO tap listing. Method, mapping of districts to clusters and Wilson intervals: `calc/city_demand.py`. Limits: reviewer city is not buyer share; Flipkart pages only about half of the 335 CLEO tap texts (paging stops after about page 6 per sort order); the sample mixes four sort orders. Not available: Google Trends (429), city-level hardness from CGWB/CPCB.
+
+**16.2 B. CLEO tap teardown**
+*What the product is.* A tap-mount and shower-arm conditioner: plastic head with threaded adapters and a replaceable cartridge. WaterScience's wording: "Reduces the effects of hardness", "Tap & Shower filters do not reduce TDS", "convert hard water salts into harmless forms"; **it does not soften** (O). Our scope note applies: any copy carries the same limits.
+| Item | Finding | Source / tag |
+|---|---|---|
+| Model and listing | SFU-423 "CLEO Shower & Tap Filter for Hard Water, Borewell/Tanker" (own site). The **4,384-rating Flipkart listing is the Municipal/Metro variant** ("for chlorine and hardness"); earlier sections called it the CLEO tap | WS page O; Flipkart O |
+| Variants and prices (own site, 2026-11-27) | Plastic adaptors **Rs 1,495** (compare-at 2,295); metal adaptors Rs 1,895; tap + shower filter combo Rs 3,145; SFU-717 (heavier, 620 g) Rs 2,295; VERSA-STF-1025 Rs 2,795; spare adapters Rs 99 each. Flipkart: Rs 1,495 (MRP 2,295, "34% off"), "Buy at Rs 1,420" with offer | O (products.json, Flipkart) |
+| Media | KDF ("patented KDF technology from KDF Fluid Treatment Inc"), "proprietary combination of zeolites and hardness dispersal media", "nano silver-carbon layer" (shower cartridge copy); NSF "certified ingredients". **Layer order, grams and flow rate not published** | O (earlier capture of catalogue copy); layer weights Unknown |
+| Housing | "Plastic" (Flipkart); sister models labelled ABS. Fits 22, 24, 28 mm **threaded metal** taps, not plastic taps. Hot water: 45 C max (own site) vs "up to 60 degrees" (Flipkart): **inconsistent** | O |
+| Cartridge | SFC-UW-100, **230 g** shipping weight; Rs 845 (2 for Rs 1,595); two types: Municipal/Metro (chlorine + hardness) and Borewell/Tanker ("high hardness, no chlorine, TDS up to 1800 ppm"). Life "4 to 6 months", "25,000 litres or up to 6 months" (SFU-717 copy) | O |
+| Unit weight | 520 g shipping weight (SFU-423); 155 g bare head variants; cartridge 230 g | O (products.json) |
+| Flow rate, dimensions, media volume | Not published. Flipkart "Life Indicator Present: Yes". Manual, Q&A and image text not opened (JavaScript) | Unknown |
+| Warranty | Flipkart: "covers all kinds of manufacturing and workmanship defects", excludes cartridge blockage from sediment. **Period not found.** Own site: 60-day money-back, refund policy "no questions asked", reverse pick-up Rs 99 deducted, refund in 5 to 7 working days. Flipkart: 7-day return | O |
+| Manufacturer | Aquagenics R&D India Pvt Ltd, A31 NGEF Estate, Whitefield, Bengaluru; "Made in India" | O |
+**Cartridge claim check (`calc/cleo_claim_check.py`).** A 25,000 L life at 200 to 550 mg/L hardness would load the cartridge with 5 to 14 kg of hardness as CaCO3, which an exchange resin would need 53 to 145 L to hold; the cartridge weighs 230 g. So the product cannot be removing hardness; it is conditioning at best. Whether conditioning works was not tested (same finding as section 8).
+*Reviews, this listing.* Rating histogram (O, 2026-11-27): 1 star 599, 2 star 220, 3 star 495, 4 star 1,076, 5 star 1,994 of 4,384; **1 to 2 star share 18.7%** (1 star 13.7%); mean 3.83. Themes (keyword counts, approximate; `calc/cleo_review_themes_output.txt`): among 44 sampled 1 to 2 star reviews, **19 to 23 (43 to 52%) cite breakage, cracking, leaks or poor plastic**, mostly at the neck or thread when tightening; 20 (45%) say no change or not effective; 11 (25%) say it failed within weeks. Across 164 unique texts, 23.8% mention breakage-type words and 25.0% no-effect words (the sample over-weights negatives). Positives: easy installation kit (T10), a visible effect on dust and sticky grains (T9), buyers who cannot tell if it works (T12, T13). Quotes T1 to T13 are in `customer-voice.md` section N.
+*How WaterScience sells.* Own Shopify store with permanent "compare-at" discounts (Rs 2,295 vs 1,495), 60-day money-back, "Trusted by 2 million customers", Flipkart (seller rating 3.7), Amazon (S), 1mg (S), more than 1,000 offline retailers (press, S), a dealership page, a 128-product catalogue with combos (tap + shower, tap + aerator, washing-machine filter) and Rs 99 adapters. Hooks on the page: "Hard water leads to hair fall and dry skin" (a claim we cannot copy). No ad observed (Meta Ad Library blocked). Channel detail: section 7.
+*Company scale.* Founded 2014 (own site). **Rs 1.4 crore from Velocity (Valar Ventures-backed growth capital), September 2025** (Entrackr, IndianStartupNews, Entrepreneur India; O). Claims: "2 million homes", target +1 million in FY25-26, "70% year-on-year growth", "more than 1,000 offline retailers" (company claims, unverified). Revenue **not found**: a $1.7M (31 Mar 2023) figure appeared only in a search snippet (CompanyCheck returned 403) and is not used. **The claims do not reconcile:** 2 million homes at Rs 1,000 or more is at least Rs 2,000 crore cumulative, against a Rs 1.4 crore raise and a seven-figure-dollar revenue snippet. Treat "2 million" as marketing. Cross-check from ratings: 4,384 ratings on this one listing at an assumed 1 to 5% rating rate means 88,000 to 438,000 units, Rs 13 to 65 crore at Rs 1,495 (I, Low).
+
+**16.3 C. Cost to make (landed cost model)**
+Model: `calc/cleo_cost_model.py`; output `calc/cleo_cost_model_output.txt`. D2C, prepaid, GST 18% stripped from the tax-inclusive price, IGST on import treated as recoverable credit (cash-flow cost only). Two routes: **A** import a finished white-label unit from China; **B** buy from an Indian trader. Own tooling is modelled only in 16.4.
+*Supplier price evidence (listing prices, not quotes).*
+| Item | Price | MOQ | Source / tag |
+|---|---|---|---|
+| Shower/tap filter, ABS, composite cartridge, China | US$2.00 to 4.00 (Rs 170 to 340) | 500 | Made-in-China, Ningbo Homaster HLSF-C, O |
+| Shower filter with carbon and KDF55 media, China | US$2.40 to 3.60 | 100 to 1,000 | Made-in-China, O |
+| Metal-body vitamin C / KDF shower filter, China | US$7.85 to 12.90 | 1 to 50 | Made-in-China, O |
+| Faucet filters, China | US$1.25 to 7.50 | 300 to 800 | Made-in-China, O |
+| Finished KDF cartridge, China | US$3.50 | 10 | Made-in-China, O |
+| Shower/tap filter, Indian trader | Rs 360 (WaterLabs HL-2), Rs 500 (HL-29 with replaceable cartridge), Rs 1,150 to 1,190 (15-stage with KDF 55) | 50 to 300 | IndiaMART, O (traders; GST status unknown) |
+| Shower filter cartridge, Indian trader | Rs 170 to 320 | 50 to 100 | IndiaMART, O |
+| KDF-type media (generic copper-zinc) | US$8 to 20 per kg (Rs 680 to 1,700) | 1 to 100 kg | Made-in-China, O. One listing at US$400 to 600 per tonne is not credible and is ignored. US retail for brand-name KDF55C: about US$34/kg (US$880 for 57 lb), S |
+| Calcium sulfite | US$10 to 20 per kg | 1 kg | Made-in-China, one supplier, S/low confidence |
+| Alibaba product pages | blocked (slider page) | | B |
+*Landed unit cost, Route A (Rs per unit, ex GST).* FOB US$2.5 / 4.5 / 6.0; freight and insurance 10 / 15 / 20% (I); BCD 7.5 / 10 / 15% plus 10% surcharge on the duty (S, taxclue: 8421 21 90 at 7.5%, 8421 21 20 at 10%, parts up to 15%); clearing, port and QC Rs 15k to 30k per lot of 300 to 1,000 (I).
+| | Low | Base | High |
+|---|---|---|---|
+| FOB | 213 | 383 | 510 |
+| Freight | 21 | 57 | 102 |
+| Duty and surcharge | 19 | 48 | 101 |
+| Clearing and QC per unit | 15 | 50 | 100 |
+| **Landed unit** | **268** | **538** | **813** |
+| Route B (Indian trader price) | 360 | 500 | 1,190 |
+| Cartridge, bought-in | 170 | 250 | 320 |
+| Cartridge bottom-up (media 20 to 100 Rs KDF, 9 to 51 calcium sulfite, 3 to 16 carbon, 30 to 70 other) | 62 | 137 | 239 |
+*Unit contribution per order, before ads (Rs, ex GST):* packaging 25 / 40 / 70 (I), outbound shipping 55 / 75 / 100 (S: Shiprocket "from Rs 20 per 500 g" excl GST), hardness strip 0 / 6 / 12 (I), gateway 2.36% (S, Razorpay), returns and warranty replacements 5 / 10 / 15% of orders (I; evidence: 18.7% of ratings are 1 to 2 star, breakage in 43 to 52% of sampled low-star reviews, 7-day Flipkart return).
+| | Low | Base | High |
+|---|---|---|---|
+| Net revenue at Rs 1,495 | 1,267 | 1,267 | 1,267 |
+| **Contribution at Rs 1,495** | **870 (69%)** | **509 (40%)** | **90 (7%)** |
+| Net revenue at Rs 1,999 | 1,694 | 1,694 | 1,694 |
+| **Contribution at Rs 1,999** | **1,287 (76%)** | **926 (55%)** | **507 (30%)** |
+| **Cartridge contribution at Rs 845** (shipped alone) | **471 (66%)** | **362 (51%)** | **241 (34%)** |
+| Cartridge contribution at Rs 695 | 347 | 238 | 117 |
+Low, base and high pair low cost with low returns and high cost with high returns, a deliberately wide band. Return rate alone moves base contribution by only about Rs 35 per 5 points (calc section C); the cost of the unit is the swing.
+*What it means for the side-income goal (calc sections E, F).* Break-even cost per order before ads: **Rs 509 at Rs 1,495; Rs 926 at Rs 1,999** (base). For Rs 50,000 a month net of ads: at Rs 1,999, 95 / 153 / 397 orders a month at Meta CPO of Rs 400 / 600 / 800; at Rs 1,495, 459 orders at Rs 400 and not achievable at Rs 600 or more. Year-1 value per customer with 30% cartridge repeat (assumption; no observed repeat rate): about Rs 620 at Rs 1,495 and Rs 1,035 at Rs 1,999. Marketplace (Flipkart commission for this category **not found**; 8 to 16% assumed, I): base contribution Rs 317 to 419 at Rs 1,495, before any ads.
+*Minimum orders and capital.* MOQ 100 to 1,000 units for finished units from China (3 to 50 for metal-body models), 50 to 300 from Indian traders, 1 to 100 kg for media. Route A first order, 500 units plus 500 cartridges: inventory Rs 3.94 lakh, IGST held until credit Rs 0.44 lakh, samples Rs 0.13 lakh (I), two lab tests Rs 0.12 lakh (I): **about Rs 4.6 lakh before ads**, against the Rs 8.5 lakh ceiling.
+*Items I could not source:* an injection-mould quote (assumed Rs 2 to 8 lakh, no source), activated-carbon price, Flipkart/Amazon commission for the category, courier rate card by zone, customs classification of a cartridge (8421 99 vs a part of 8421 21), and any supplier quote (I contacted no one). IGST paid on import is creditable only if registered for GST and the cartridge or unit is treated as taxable at 18% on sale (the note in section 9 on 5% vs 18% applies).
+*IP flag.* WaterScience says it uses "patented KDF technology from KDF Fluid Treatment Inc". KDF is a licensed brand and process; Chinese listings sell generic "KDF55" copper-zinc media. Using the name KDF or media that infringes a patent is a risk; take advice from an IP professional before any use of the term.
+
+**16.4 D. Can we beat it, honestly?**
+| Wedge | Evidence | Can we do it? | Cost / risk |
+|---|---|---|---|
+| **Build quality** | 19 to 23 of 44 sampled 1 to 2 star reviews on the largest listing cite breakage at the plastic neck or thread; the earlier sample had 24 of 87 low-star; WaterScience itself sells a metal-adaptor variant at Rs 1,895, conceding the point | **Yes, the strongest wedge**, if the weak part is the threaded neck (reviewers T2, T3, T5) | Own mould or a supplier's metal-insert model: landed Rs 806 to 1,040 with a Rs 2 to 8 lakh mould (I); contribution Rs 2 to 245 at Rs 1,499 and Rs 416 to 659 at Rs 1,999 (calc H, assumes returns fall to 4%) |
+| **Honest proof** | No incumbent publishes a hardness before/after; buyers cannot tell if it works (T12, T13) | **Only if the product moves a measurable thing.** A conditioner will not change a hardness strip or TDS; the one measurable claim is free-chlorine reduction on the municipal cartridge (needs our own test). A scale test (heated water) is possible but unproven | Lab test Rs 6k each (I); if it shows no effect, the claim wedge disappears |
+| **Cartridge life** | Claimed "25,000 L or 6 months"; reviewers report 1 week to 3 months; physics says it cannot hold hardness (16.2) | Publish an honest "up to X months at Y hardness" only after a bench run. A litre counter or date label is cheap | Support burden if shorter than claimed |
+| **Price** | Rs 1,495 incumbent, Rs 448 to 1,199 white-labels with 50 to 88% "off" | **No.** At Rs 1,495 base contribution is Rs 509, equal to a Rs 509 CPO; undercutting leaves no ad budget | |
+**Claim limits apply to us.** We cannot say "softens", "reduces hardness", "hair fall", "skin" or "protects hair" without substantiation (CLAUDE.md section 7; ASCI Chapter I). The incumbent's "Reduces the effects of hardness" is itself unproven in public, and "34% off" on a permanent compare-at price is a CCPA risk for anyone who copies it. A tap product honestly sold is a **sediment, chlorine (if tested) and build-quality** product with a described limit ("does not reduce TDS or hardness readings"), which is a weaker headline than the one buyers search for.
+**Candid view.** Beating CLEO on breakage is plausible and cheap to test; beating it on results is not provable by us any more than by them. The economics work at Rs 1,799 to 1,999 with CPO under about Rs 600, and fail at Rs 1,495. A side-income business at about 150 orders a month needs a Rs 1,999 product that has to win on build and trust against a Rs 1,495 product with 4,384 ratings.
+
+**16.5 Three cheap facts that move PARK to GO or NO-GO, and what needs founder OK**
+1. Does the product do anything measurable? A chlorine strip and a heated-water scale test on a purchased CLEO and a candidate sample (about Rs 3k to 12k; needs OK to buy a unit and samples).
+2. Real quote: a metal-insert unit, mould, MOQ and cartridge price from 2 to 3 OEMs (needs OK to contact suppliers).
+3. Real CPO: a refundable pre-order smoke test at Rs 1,799 to 1,999 in Bengaluru, Delhi NCR and Pune ad sets (`playbooks/smoke-test.md`; needs OK to spend).
+Unverified and not opened: Alibaba product pages (blocked), Google Trends (429), CGWB/CPCB city hardness, any revenue filing, the CLEO manual and Q&A, the incumbent's warranty period, Meta Ad Library.
+
 ---
 ## Reconciliation notes (where earlier drafts disagreed; newer, page-verified figure used)
 | Item | Earlier value | Used here | Why |
@@ -334,6 +438,6 @@ The /50 attractiveness score and the shower-form scorecard are carried from the 
 - **A. Verbatim quotes and source URLs:** [`customer-voice.md`](customer-voice.md) (72 quotes, segment tags, theme counts).
 - **B. Source ledger** (URL, date, what it gave, opened / snippet / blocked): [`sources.md`](sources.md).
 - **C. Bench-test spec** (loose-resin column check and full-flow runs; spec only, buying needs OK): [`bench-test-spec.md`](bench-test-spec.md).
-- **D. Calculations:** [`calc/`](calc/): `stage2_calc.py` + output (capacity, flow, TAM/SAM/SOM, competitor-led, side-income gap), `landscape_calc.py` + output (implied resin capacity, salt cost, 12-month costs, star shares), `landscape_theme_counts.py` + output and `review_theme_counts.txt` (review themes).
+- **D. Calculations:** [`calc/`](calc/): `city_demand.py`, `cleo_cost_model.py`, `cleo_review_themes.py`, `cleo_claim_check.py` + outputs (section 16, added 2026-11-27); `stage2_calc.py` + output (capacity, flow, TAM/SAM/SOM, competitor-led, side-income gap), `landscape_calc.py` + output (implied resin capacity, salt cost, 12-month costs, star shares), `landscape_theme_counts.py` + output and `review_theme_counts.txt` (review themes).
 - **E. Raw captures:** [`raw/`](raw/) (dated page captures; reviews with names removed).
 - **F. Superseded drafts:** [`archive/`](archive/) (`market-research.md`, `india-landscape.md`, `competitors.md`).

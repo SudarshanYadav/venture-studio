@@ -1,0 +1,23 @@
+Rating histogram (O, Flipkart 2026-11-27): {1: 599, 2: 220, 3: 495, 4: 1076, 5: 1994} total 4384
+1-2 star share: 18.7%  (1 star 13.7%)  4-5 star share: 70.0%
+Mean from histogram: 3.83
+
+All unique CLEO tap review texts captured (sort-mixed; negative-first over-weighted): n=164
+  Breakage / crack / leak / loose fit / poor plastic    39  23.8%
+  No visible change / not effective / waste             41  25.0%
+  Short life / stopped working                          32  19.5%
+  Hair / skin motive mentioned                          10   6.1%
+  Positive: works / good / value                        99  60.4%
+  Hot water / flow / pressure                            6   3.7%
+  Install: easy / fit trouble                           16   9.8%
+
+Rated 1-2 star subset (from 2026-11-26 capture): n=44
+  Breakage / crack / leak / loose fit / poor plastic    19  43.2%
+  No visible change / not effective / waste             20  45.5%
+  Short life / stopped working                          11  25.0%
+  Hair / skin motive mentioned                           1   2.3%
+  Positive: works / good / value                        13  29.5%
+  Hot water / flow / pressure                            1   2.3%
+  Install: easy / fit trouble                            3   6.8%
+
+Breakage-type phrases in 1-2 star subset (strict: broke/crack/leak/loose/plastic/quality): 23 of 44

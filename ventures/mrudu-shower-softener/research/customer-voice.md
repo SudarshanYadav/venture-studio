@@ -192,3 +192,25 @@ Hair/skin motive 37; no change or waste 54 (51 of 67 one- and two-star reviews);
 **Observed:** the "no change" complaint recurs on every category (cartridge, liquid, tank media); D'Cal's one- and two-star share (22%) matches the first-screen shower filters (17 to 23%). Hair and skin is again the dominant motive, now also on liquids and tank media. Buyers of real salt softeners (Kent) talk about regeneration and capacity, not "no change", but only two such reviews exist and they sit on the brand's own site.
 **Inferred (Medium):** unprompted proof demand (TDS meters, boiling tests, hot-water tests) shows buyers want a visible number; a hardness test strip before and after is the right proof, not TDS. A softener buyer's second worry is operating effort (salt, regeneration), which the first screen did not capture.
 **Not known:** how non-buyers with the problem talk (Reddit, WhatsApp groups); willingness to pay for ₹10k+.
+
+
+## N. CLEO tap (Municipal/Metro, Flipkart 4,384 ratings), new captures 2026-11-27
+Captured in sort orders MOST_RECENT, MOST_HELPFUL, POSITIVE_FIRST, NEGATIVE_FIRST (pages 1 to 6). Stars are not shown in the page text for these captures, so none are tagged; city is as shown by Flipkart; names removed. Source: https://www.flipkart.com/water-science-cleo-tap-filter-hard-municipal-metro-water-mount/product-reviews/itme09021f5b2d0e?pid=TWFGU3TCDNYQNDXR . Raw: `raw/flipkart/2026-11-27/`. Verbatim, short excerpts.
+| # | Quote | City | Age shown | Theme |
+|---|---|---|---|---|
+| T1 | "Product is terrible fibre part will leaked within 10 to 15 days" | Jamnagar | earlier capture | Breakage / leak |
+| T2 | "Poor product. The product broke while tightening with the tap. Common sense says there should be a steel part to tighten it with the tap." | Saharanpur | 3 months | Breakage at the fitting |
+| T3 | "Horrible, makes a no sense making, my 02 items broke from neck in fiiting area. Manufacturer should make it by physics law of handling weight of product on 03 threds" | Jalgaon | 6 months | Breakage at the neck |
+| T4 | "Poor material quality, after seeing a lot of review for same problem. I gently installed it still it broke and leaking. Waterscience need to work on material build quality." | Chengalpattu | 4 months | Breakage; reviewer saw others' reports |
+| T5 | "Plastic broke from neck point ,but using it after applying feviquick" | Bengaluru | 2 months | Breakage, repaired by buyer |
+| T6 | "I just bought it and it did not even take one month It was already broken.. customer service said we can't do anything it's really a loss of money. I don't know what the warranty is" | Annamayya | 6 months | Warranty unclear |
+| T7 | "Worst product water flow has become slow and water is not clear it is as usual as earlier" | Hubballi | 6 months | Flow, no change |
+| T8 | "Not that much good too many leakage and you have to clean it every week 2 times" | Bikaner | 1 month | Leak, maintenance |
+| T9 | "The dusty and sticky grains are reduced to finer particles which don't stick to skin or bucket ,it really does work but yeah people are expecting it to reduce tds which is technically never possible" | Bengaluru | 3 months | Positive; TDS expectation gap |
+| T10 | "Easily assembled, provided different size adaptors. No leakage as of now. Used for a day a lots of difference." | Bengaluru | May 2024 | Positive; install kit valued |
+| T11 | "Product is great. Just that one would meed to order additional fitting to fit it into the tap. It can be obtained from local hardware shop." | Delhi | 7 months | Fit gap |
+| T12 | "After 2 months of use, not sure if this product has made any difference!! Water is still dirty and greasy like it was before" | Kolkata | Sep 2025 | No visible change |
+| T13 | "honestly not sure if its really useful or not i have used from 3 months i dont know if it really effective" | Pune | 30 days | No way to tell: proof gap |
+
+Segment note: no quote names a hardness number or a before/after strip; T13 and T12 show buyers cannot tell whether it worked. Quotes naming hair or skin (for example Ahmedabad Feb 2025, Dimapur) are research evidence only, never ad copy (CLAUDE.md section 7).
+Theme counts for this listing: `calc/cleo_review_themes_output.txt` (keyword counts, approximate).

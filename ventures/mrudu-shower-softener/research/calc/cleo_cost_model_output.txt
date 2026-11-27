@@ -1,0 +1,91 @@
+=== A. Cartridge bottom-up bill of materials (Rs per cartridge, before conversion margin) ===
+  KDF-type media                                                 20.4     53.5    102.0  [O/I] MIC3 price; grams I
+  Calcium sulfite                                                 8.5     25.5     51.0  [S/I] MIC price; grams I
+  Activated carbon                                                3.0      8.2     16.0  [I] no source
+  Other media, body, caps, o-rings, assembly                       30       50       70  [I] no source
+  Cartridge bottom-up total (Rs)                                 61.9    137.3    239.0  [I] sum
+  Cross-check, bought-in cartridge prices: IndiaMART Rs 170 (MOQ 100), Rs 320 (MOQ 50) [O, IM1]; Made-in-China US$3.50 = Rs 298 (MOQ 10) [O, MIC1]
+  WaterScience sells its cartridge at Rs 845 [O, WS]; ratio of its price to our bottom-up base = 6.2x
+
+=== B1. Route A: import finished tap/shower filter from China (white-label) ===
+  FOB (Rs)                                                      212.5    382.5    510.0  [O/I] MIC1/MIC2
+  + freight and insurance                                        21.2     57.4    102.0  [I] 
+  + BCD and SWS                                                  19.3     48.4    101.0  [S] TX1
+  + clearing, port, QC per unit                                  15.0     50.0    100.0  [I] 
+  + tooling per unit (3,000 units)                                0.0      0.0      0.0  [I] no source
+  LANDED UNIT COST, Route A (Rs, ex GST)                        268.0    538.3    813.0  [mixed] 
+  IGST on import (18% of CIF+duty) is creditable; cash tied up per unit (Rs): ['46', '88', '128']
+
+=== B2. Route B: buy white-label unit from an Indian trader/OEM ===
+  Trader quote, unit (Rs)                                       360.0    500.0   1190.0  [O] IM1 (listing prices, not quotes; GST status unknown)
+
+=== C. Unit contribution per order, D2C prepaid, before ads (Rs, ex-GST) ===
+  -- price Rs 1495 GST-incl --
+  Net revenue after 18% GST                                    1266.9   1266.9   1266.9  [I] GST rule
+  Variable cost (unit+pack+ship+strip+PG+returns)               396.8    758.0   1176.8  [mixed] 
+  CONTRIBUTION per order before ads                             870.1    509.0     90.1  [mixed] 
+  Contribution margin on net revenue (%)                         68.7     40.2      7.1  [] 
+  -- price Rs 1999 GST-incl --
+  Net revenue after 18% GST                                    1694.1   1694.1   1694.1  [I] GST rule
+  Variable cost (unit+pack+ship+strip+PG+returns)               406.9    768.1   1186.9  [mixed] 
+  CONTRIBUTION per order before ads                            1287.2    926.0    507.2  [mixed] 
+  Contribution margin on net revenue (%)                         76.0     54.7     29.9  [] 
+
+  NOTE: low/base/high pair low cost with low return rate and high cost with high return rate (a deliberately wide band).
+  Return-rate sensitivity at BASE cost (returns+warranty as % of orders):
+    returns  5%  price 1495  contribution Rs 543
+    returns  5%  price 1999  contribution Rs 960
+    returns 10%  price 1495  contribution Rs 509
+    returns 10%  price 1999  contribution Rs 926
+    returns 15%  price 1495  contribution Rs 475
+    returns 15%  price 1999  contribution Rs 892
+    returns 20%  price 1495  contribution Rs 440
+    returns 20%  price 1999  contribution Rs 857
+
+=== D. Cartridge contribution (Rs, ex-GST), shipped alone ===
+  -- cartridge price Rs 695 --
+  Net revenue                                                   589.0    589.0    589.0  [I] 
+  Cartridge cost (bought-in)                                    170.0    250.0    320.0  [O/I] IM1 Rs 170-320
+  CONTRIBUTION per cartridge                                    346.9    238.3    116.7  [mixed] 
+  Margin on net (%)                                              58.9     40.5     19.8  [] 
+  -- cartridge price Rs 845 --
+  Net revenue                                                   716.1    716.1    716.1  [I] 
+  Cartridge cost (bought-in)                                    170.0    250.0    320.0  [O/I] IM1 Rs 170-320
+  CONTRIBUTION per cartridge                                    471.0    362.4    240.8  [mixed] 
+  Margin on net (%)                                              65.8     50.6     33.6  [] 
+
+=== E. Year-1 contribution per customer and orders/month for Rs 50,000/month net ===
+  price 1495, cartridge repeat 0% (assumption; no observed repeat rate): year-1 contribution Rs ['870', '509', '90']
+  price 1495, cartridge repeat 30% (assumption; no observed repeat rate): year-1 contribution Rs ['1011', '618', '162']
+  price 1495, cartridge repeat 60% (assumption; no observed repeat rate): year-1 contribution Rs ['1153', '726', '235']
+  price 1999, cartridge repeat 0% (assumption; no observed repeat rate): year-1 contribution Rs ['1287', '926', '507']
+  price 1999, cartridge repeat 30% (assumption; no observed repeat rate): year-1 contribution Rs ['1428', '1035', '579']
+  price 1999, cartridge repeat 60% (assumption; no observed repeat rate): year-1 contribution Rs ['1570', '1143', '652']
+  Orders per month to net Rs 50,000/month after ads, base-case contribution, by cost per order (CPO, I; implied range from REPORT section 7: Rs 267-2,800, central 800):
+   price 1495 (base contribution Rs 509): CPO 400: 459 orders; CPO 600: never (contribution <= CPO); CPO 800: never (contribution <= CPO); CPO 1000: never (contribution <= CPO)
+   price 1999 (base contribution Rs 926): CPO 400: 95 orders; CPO 600: 153 orders; CPO 800: 397 orders; CPO 1000: never (contribution <= CPO)
+  Break-even CPO (= base contribution before ads): price 1,495 Rs 509; price 1,999 Rs 926
+
+=== F. First-order capital (Route A base, 500 units + 500 cartridges), Rs ===
+  Inventory at landed cost: 394131; IGST cash held until credit: 43944; samples/pre-production (5 vendors x US$30 incl air, I): 12750; lab test of hardness/flow (I, 2 x Rs 6,000): 12000
+  Total ~ Rs 462824 against the Rs 8.5 lakh ceiling, before ads
+
+=== G. Marketplace sensitivity at Rs 1,495 (Flipkart category commission NOT found; all figures I) ===
+  commission 8%: contribution before ads Rs ['754', '419', '31']
+  commission 12%: contribution before ads Rs ['703', '368', '-20']
+  commission 16%: contribution before ads Rs ['652', '317', '-71']
+
+=== H. Wedge build "CLEO-class but does not break" (all I; no supplier quote) ===
+  mould Rs 200000 over 3000 units: landed Rs  840; price 1499 contribution Rs  210 (returns 4% assumed if the build fix works)
+  mould Rs 200000 over 3000 units: landed Rs  840; price 1999 contribution Rs  624 (returns 4% assumed if the build fix works)
+  mould Rs 200000 over 6000 units: landed Rs  806; price 1499 contribution Rs  245 (returns 4% assumed if the build fix works)
+  mould Rs 200000 over 6000 units: landed Rs  806; price 1999 contribution Rs  659 (returns 4% assumed if the build fix works)
+  mould Rs 400000 over 3000 units: landed Rs  906; price 1499 contribution Rs  141 (returns 4% assumed if the build fix works)
+  mould Rs 400000 over 3000 units: landed Rs  906; price 1999 contribution Rs  555 (returns 4% assumed if the build fix works)
+  mould Rs 400000 over 6000 units: landed Rs  840; price 1499 contribution Rs  210 (returns 4% assumed if the build fix works)
+  mould Rs 400000 over 6000 units: landed Rs  840; price 1999 contribution Rs  624 (returns 4% assumed if the build fix works)
+  mould Rs 800000 over 3000 units: landed Rs 1040; price 1499 contribution Rs    2 (returns 4% assumed if the build fix works)
+  mould Rs 800000 over 3000 units: landed Rs 1040; price 1999 contribution Rs  416 (returns 4% assumed if the build fix works)
+  mould Rs 800000 over 6000 units: landed Rs  906; price 1499 contribution Rs  141 (returns 4% assumed if the build fix works)
+  mould Rs 800000 over 6000 units: landed Rs  906; price 1999 contribution Rs  555 (returns 4% assumed if the build fix works)
+  Mould cost range Rs 2-8 lakh is an assumption; no source opened. Ask two OEMs for a mould quote before relying on it (needs founder OK to contact).

@@ -1,0 +1,4 @@
+hardness 200 mg/L: 5.0 kg CaCO3 in 25,000 L -> 53 L of fresh softening resin (cartridge total weight is 230 g)
+hardness 300 mg/L: 7.5 kg CaCO3 in 25,000 L -> 79 L of fresh softening resin (cartridge total weight is 230 g)
+hardness 550 mg/L: 13.8 kg CaCO3 in 25,000 L -> 145 L of fresh softening resin (cartridge total weight is 230 g)
+Conclusion: the cartridge cannot be an exchange softener at that life; any hardness effect would have to come from something other than removal (WaterScience calls it conditioning). Whether conditioning works was not tested here.
